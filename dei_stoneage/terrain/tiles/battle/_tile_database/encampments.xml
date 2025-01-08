@@ -1,0 +1,24 @@
+<TILE_DATABASE>
+	<TILE_SET name='encampments' red='85' green='85' blue='0'>
+		<TILE location='terrain\tiles\battle\town_barbarian_plains\8x8' masked='false' width='8' height='8' texture_group='group52' red_channel='grass' green_channel='mud' blue_channel='rock' alpha_channel='forest' custom_alpha_blend_texture='' requires_infield_lodding='true'>
+			<VARIATION name='aa' scale='20.000000' min_height='-2.000000' normal_strength='1.000000' overlap_border_size='1.000000'/>
+			<VARIATION name='ab' scale='10.000000' min_height='-2.000000' normal_strength='0.250000' overlap_border_size='1.000000'/>
+			<VARIATION name='ac' scale='25.396832' min_height='-12.523944' normal_strength='1.980000' overlap_border_size='1.000000'/>
+		</TILE>
+		<TILE location='terrain\tiles\battle\town_persian_plains\8x8' masked='false' width='8' height='8' texture_group='group0' red_channel='grass' green_channel='mud' blue_channel='rock' alpha_channel='sand' custom_alpha_blend_texture='' requires_infield_lodding='true'>
+			<VARIATION name='aa' scale='20.000000' min_height='-2.000000' normal_strength='1.000000' overlap_border_size='1.000000'/>
+			<VARIATION name='ab' scale='10.000000' min_height='-2.000000' normal_strength='0.250000' overlap_border_size='1.000000'/>
+			<VARIATION name='ac' scale='25.397219' min_height='-12.523944' normal_strength='1.980000' overlap_border_size='1.000000'/>
+		</TILE>
+		<TILE location='terrain\tiles\battle\town_greek_plains\8x8' masked='false' width='8' height='8' texture_group='group52' red_channel='grass' green_channel='mud' blue_channel='rock' alpha_channel='forest' custom_alpha_blend_texture='' requires_infield_lodding='true'>
+			<VARIATION name='aa' scale='20.000000' min_height='-2.000000' normal_strength='1.000000' overlap_border_size='1.000000'/>
+			<VARIATION name='ab' scale='10.000000' min_height='-2.000000' normal_strength='0.250000' overlap_border_size='1.000000'/>
+			<VARIATION name='ac' scale='25.397219' min_height='-12.523944' normal_strength='1.980000' overlap_border_size='1.000000'/>
+		</TILE>
+		<TILE location='terrain\tiles\battle\town_roman_plains\8x8' masked='false' width='8' height='8' texture_group='group132' red_channel='mud' green_channel='urban' blue_channel='grass' alpha_channel='forest' custom_alpha_blend_texture='' requires_infield_lodding='true'>
+			<VARIATION name='aa' scale='20.000000' min_height='-2.000000' normal_strength='1.000000' overlap_border_size='1.000000'/>
+			<VARIATION name='ab' scale='10.000000' min_height='-2.000000' normal_strength='1.000000' overlap_border_size='1.000000'/>
+			<VARIATION name='ac' scale='25.397219' min_height='-12.523944' normal_strength='1.000000' overlap_border_size='1.000000'/>
+		</TILE>
+	</TILE_SET>
+</TILE_DATABASE>
