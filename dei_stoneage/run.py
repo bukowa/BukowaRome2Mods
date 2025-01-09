@@ -1,4 +1,5 @@
 import os
+import re
 
 
 def change_building_time_and_upkeep():
@@ -66,6 +67,24 @@ def change_technology_research_points():
             f.write(content[k])
 
 
+def change_mission_money_rewards():
+    file = 'campaigns/main_rome/missions_original.txt'
+
+    with open(file, 'r') as f:
+        content = f.read()
+        # find regex where line contains only "money N;"
+        # replace N with N * 2
+        # save the new content to a new file
+        pattern = r"money (\d+);"
+
+        # Replace all occurrences of 'money X;' with 'money X*10;'
+        new_content = re.sub(pattern, lambda match: f"money {int(match.group(1)) * 10};", content)
+
+        with open('campaigns/main_rome/missions.txt', 'w') as f:
+            f.write(new_content)
+
+
 if __name__ == '__main__':
     change_building_time_and_upkeep()
     change_technology_research_points()
+    change_mission_money_rewards()
