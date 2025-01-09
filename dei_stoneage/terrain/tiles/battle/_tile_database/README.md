@@ -1,1 +1,0 @@
-original author: https://www.twcenter.net/forums/showthread.php?820028-SUBMOD-No-More-Fort-Battles&p=16179410
