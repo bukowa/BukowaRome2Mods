@@ -39,13 +39,24 @@ function remove_all_military_buildings_for_all_factions()
             local region = region_list:item_at(j)  -- Added missing assignment for region
             for slots = 0, region:slot_list():num_items() - 1 do
                 local slot = region:slot_list():item_at(slots)
+
                 if slot:has_building() then
-					scripting.game_interface:instantly_dismantle_building(tostring(region:name())..":"..tostring(slots))
+					if slot:type() == "primary" then
+						LogBukowa("Skipping primary building")
+					elseif slot:type() == "port" then
+						LogBukowa("Skipping port building")
+					elseif slot:building():superchain() == "dei_wonder_superchain" then
+						LogBukowa("Skipping wonder building")
+					else
+						scripting.game_interface:instantly_dismantle_building(tostring(region:name()) .. ":" .. tostring(slots))
+					end
+
                 end
             end
         end
     end
 end
+
 
 function pcall_remove_all_military_buildings_for_all_factions()
 	local success, message = pcall(remove_all_military_buildings_for_all_factions)
