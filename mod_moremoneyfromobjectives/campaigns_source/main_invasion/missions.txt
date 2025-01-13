@@ -1,0 +1,3720 @@
+scripted_missions
+{
+	//************** ROME ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_rome_1_primary;	// First chapter-based mission for Rome
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_1_primary_heading;
+			description mission_text_text_objective_inv_rome_1_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_roma;
+				//province inv_vei; 			
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key dignitary;
+					location capital;
+				}
+				
+				//money 2400;
+				issue_mission objective_inv_rome_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_1_1_heading;
+				description 	mission_text_text_objective_inv_rome_1_1_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+					region inv_vei_vei;
+					
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_1_2_heading;
+				description 	mission_text_text_objective_inv_rome_1_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_agriculture_double_cropping;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_1_3_heading;
+				description 	mission_text_text_objective_inv_rome_1_3_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_public_trader_2;
+					faction inv_rome;
+
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_rome_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_2_primary_heading;
+			description mission_text_text_objective_inv_rome_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_latium;
+				//province inv_sabinium;			
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key spy;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_rome_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_2_1_heading;
+				description 	mission_text_text_objective_inv_rome_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_military_management_training_reforms;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_2_2_heading;
+				description 	mission_text_text_objective_inv_rome_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_ROMAN_temple_Jupiter_3;
+					faction inv_rome;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_rome_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_3_primary_heading;
+			description mission_text_text_objective_inv_rome_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_umbria;
+				//province inv_picenum;
+				//province inv_campania;			
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_rome_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_3_1_heading;
+				description 	mission_text_text_objective_inv_rome_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_3_2_heading;
+				description 	mission_text_text_objective_inv_rome_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_roman_Equites;
+
+					unit inv_roman_Equites_Extraordinarii_Early_Allied;
+					unit inv_roman_Senator_Guard;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_rome_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_4_primary_heading;
+			description mission_text_text_objective_inv_rome_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_ROMAN_forum_entertainment_3;
+				faction inv_rome;			
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_rome_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_4_1_heading;
+				description 	mission_text_text_objective_inv_rome_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_veneti;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_4_2_heading;
+				description 	mission_text_text_objective_inv_rome_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_ROMAN_outskirts_industry_4;
+					faction inv_rome;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_rome_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_5_primary_heading;
+			description mission_text_text_objective_inv_rome_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 11; 
+				//province inv_samnium;
+				//province inv_frentania;
+				//province inv_lucania;
+				//province inv_bruttium;			
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_rome_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_5_1_heading;
+				description 	mission_text_text_objective_inv_rome_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_samnites;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_5_2_heading;
+				description 	mission_text_text_objective_inv_rome_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_roman_Principes;
+					unit inv_roman_Principes_Early_Allied;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_rome_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_6_primary_heading;
+			description mission_text_text_objective_inv_rome_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 15; 
+				//province inv_gallia_cispadana;
+				//province inv_italia;			
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_rome_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_6_1_heading;
+				description 	mission_text_text_objective_inv_rome_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_economy_legal_institutions;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_6_2_heading;
+				description 	mission_text_text_objective_inv_rome_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level	rom_ROMAN_forum_entertainment_4;
+					faction inv_rome;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_rome_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_rome_7_primary_heading;
+			description mission_text_text_objective_inv_rome_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_tarchuna;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_7_1_heading;
+				description 	mission_text_text_objective_inv_rome_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;					
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_rome_7_2_heading;
+				description 	mission_text_text_objective_inv_rome_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_roman_Triarii;
+					unit inv_roman_Pedites_Extraordinarii_Early_Allied;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** SYRACUSE ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_syracuse_1_primary;	// First chapter-based mission for Syracuse
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_1_primary_heading;
+			description mission_text_text_objective_inv_syracuse_1_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_sikelia;
+				//province inv_sicania; 			
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key champion;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_syracuse_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_1_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_greek_civil_philosophy_scholarship;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_1_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_agora_research_2;
+					faction inv_syracuse;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_syracuse_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_2_primary_heading;
+			description mission_text_text_objective_inv_syracuse_2_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_elymia; 
+				//province inv_italia;		
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key dignitary;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_syracuse_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_2_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_baktria_military_tactics_tactical_flexibility;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_2_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_HELLENIC_agora_entertainment_3;
+					faction inv_syracuse;
+
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_syracuse_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_3_primary_heading;
+			description mission_text_text_objective_inv_syracuse_3_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_bruttium;
+				//province inv_lucania;
+				//province inv_campania;		
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_syracuse_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_3_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+
+
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_3_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_syracusan_warrior_crossbowmen;
+
+
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_syracuse_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_4_primary_heading;
+			description mission_text_text_objective_inv_syracuse_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_HELLENIC_city_major_3;
+				faction inv_syracuse;			
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_syracuse_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_4_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_4_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_HELLENIC_temple_Athene_4;
+					faction inv_syracuse;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_syracuse_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_5_primary_heading;
+			description mission_text_text_objective_inv_syracuse_5_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 11; 
+				//province inv_apulia;
+				//province inv_samnium;
+				//province inv_frentania;
+				//province inv_calabria;			
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_syracuse_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_5_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_taranto;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_5_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit Gre_Ballista;
+					unit Gre_Polybolos;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_syracuse_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_6_primary_heading;
+			description mission_text_text_objective_inv_syracuse_6_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 15; 
+				//province inv_ioleia;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_syracuse_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_6_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_greek_civil_philosophy_field_surgery;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_6_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_HELLENIC_port_trade_4;
+					faction inv_syracuse;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_syracuse_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_syracuse_7_primary_heading;
+			description mission_text_text_objective_inv_syracuse_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_carthage;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_7_1_heading;
+				description 	mission_text_text_objective_inv_syracuse_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_syracuse_7_2_heading;
+				description 	mission_text_text_objective_inv_syracuse_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_syracusan_warrior_hoplites;
+					unit inv_syracusan_noble_hoplites;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** TARANTO ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_taranto_1_primary;	// First chapter-based mission for Taranto
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_1_primary_heading;
+			description mission_text_text_objective_inv_taranto_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_calabria;
+				//province inv_apulia;		
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key champion;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_taranto_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_1_1_heading;
+				description 	mission_text_text_objective_inv_taranto_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_baktria_military_tactics_tactical_flexibility;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_1_2_heading;
+				description 	mission_text_text_objective_inv_taranto_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_HELLENIC_agora_research_2;
+					faction inv_taranto;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_taranto_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_2_primary_heading;
+			description mission_text_text_objective_inv_taranto_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_lucania;
+				//province inv_campania;		
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key spy;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_taranto_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_2_1_heading;
+				description 	mission_text_text_objective_inv_taranto_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_greek_civil_economy_set_grain_prices;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_2_2_heading;
+				description 	mission_text_text_objective_inv_taranto_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_water_bath_3;
+					faction inv_taranto;
+
+
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_taranto_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_3_primary_heading;
+			description mission_text_text_objective_inv_taranto_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_italia;
+				//province inv_samnium;
+				//province inv_bruttium;	
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_taranto_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_3_1_heading;
+				description 	mission_text_text_objective_inv_taranto_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_3_2_heading;
+				description 	mission_text_text_objective_inv_taranto_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_tarentine_warrior_missile_cav;
+
+
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_taranto_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_4_primary_heading;
+			description mission_text_text_objective_inv_taranto_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_HELLENIC_temple_Nymphs_4;
+				faction inv_taranto;			
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_taranto_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_4_1_heading;
+				description 	mission_text_text_objective_inv_taranto_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_carthage;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_4_2_heading;
+				description 	mission_text_text_objective_inv_taranto_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_HELLENIC_outskirts_pottery_4;
+					faction inv_taranto;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_taranto_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_5_primary_heading;
+			description mission_text_text_objective_inv_taranto_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 11; 
+				//province inv_latium;
+				//province inv_sabinium;
+				//province inv_picenum;
+				//province inv_frentania;			
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_taranto_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_5_1_heading;
+				description 	mission_text_text_objective_inv_taranto_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_samnites;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_5_2_heading;
+				description 	mission_text_text_objective_inv_taranto_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_tarentine_noble_missile_cav;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_taranto_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_6_primary_heading;
+			description mission_text_text_objective_inv_taranto_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 15; 
+				//province inv_tuscia;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_taranto_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_6_1_heading;
+				description 	mission_text_text_objective_inv_taranto_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_greek_civil_philosophy_hippocratic_oath;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_6_2_heading;
+				description 	mission_text_text_objective_inv_taranto_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_HELLENIC_agora_public_4;
+					faction inv_taranto;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_taranto_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_taranto_7_primary_heading;
+			description mission_text_text_objective_inv_taranto_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_syracuse;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_7_1_heading;
+				description 	mission_text_text_objective_inv_taranto_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_taranto_7_2_heading;
+				description 	mission_text_text_objective_inv_taranto_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_tarentine_warrior_hoplites;
+					unit inv_tarentine_noble_hoplites;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** SAMNITES ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_samnites_1_primary;	// First chapter-based mission for Samnites
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_1_primary_heading;
+			description mission_text_text_objective_inv_samnites_1_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_samnium;
+				//province inv_campania;		
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key spy;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_samnites_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_1_1_heading;
+				description 	mission_text_text_objective_inv_samnites_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_military_tactics_physical_conditioning;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_1_2_heading;
+				description 	mission_text_text_objective_inv_samnites_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_ROMAN_outskirts_minor_cattle_2;
+					faction inv_samnites;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_samnites_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_2_primary_heading;
+			description mission_text_text_objective_inv_samnites_2_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_lucania;
+				//province inv_bruttium;	
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key dignitary;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_samnites_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_2_1_heading;
+				description 	mission_text_text_objective_inv_samnites_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_agriculture_improved_irrigation;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_2_2_heading;
+				description 	mission_text_text_objective_inv_samnites_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_ROMAN_forum_slave_3;
+					faction inv_samnites;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_samnites_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_3_primary_heading;
+			description mission_text_text_objective_inv_samnites_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_frentania;
+				//province inv_apulia;
+				//province inv_italia;
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_samnites_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_3_1_heading;
+				description 	mission_text_text_objective_inv_samnites_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_3_2_heading;
+				description 	mission_text_text_objective_inv_samnites_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_samnite_warrior_swordmen;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_samnites_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_4_primary_heading;
+			description mission_text_text_objective_inv_samnites_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_ROMAN_military_equipment_siege_2;
+				faction inv_samnites;			
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_samnites_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_4_1_heading;
+				description 	mission_text_text_objective_inv_samnites_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_iolei;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_4_2_heading;
+				description 	mission_text_text_objective_inv_samnites_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_ROMAN_forum_trade_4;
+					faction inv_samnites;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_samnites_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_5_primary_heading;
+			description mission_text_text_objective_inv_samnites_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 11; 
+				//province inv_latium;
+				//province inv_sabinium;
+				//province inv_picenum;
+				//province inv_umbria;		
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_samnites_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_5_1_heading;
+				description 	mission_text_text_objective_inv_samnites_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_rome;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_5_2_heading;
+				description 	mission_text_text_objective_inv_samnites_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_samnite_warrior_spearmen;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_samnites_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_6_primary_heading;
+			description mission_text_text_objective_inv_samnites_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 16;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_samnites_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_6_1_heading;
+				description 	mission_text_text_objective_inv_samnites_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_military_tactics_stategic_manoeuvres;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_6_2_heading;
+				description 	mission_text_text_objective_inv_samnites_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_ROMAN_military_main_heavy_4;
+					faction inv_samnites;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_samnites_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_samnites_7_primary_heading;
+			description mission_text_text_objective_inv_samnites_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_taranto;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_7_1_heading;
+				description 	mission_text_text_objective_inv_samnites_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_samnites_7_2_heading;
+				description 	mission_text_text_objective_inv_samnites_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_samnite_warrior_spearmen;
+					unit inv_samnite_noble_spearmen;
+					unit inv_samnite_warrior_hoplite;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** VENETI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_veneti_1_primary;	// First chapter-based mission for Veneti
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_1_primary_heading;
+			description mission_text_text_objective_inv_veneti_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_venetia;
+				//province inv_gallia_cispadana;		
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key dignitary;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_veneti_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_1_1_heading;
+				description 	mission_text_text_objective_inv_veneti_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_warrior_code_war_dance;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_1_2_heading;
+				description 	mission_text_text_objective_inv_veneti_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_enclosure_minor_food_cattle_2;
+					faction inv_veneti;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_veneti_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_2_primary_heading;
+			description mission_text_text_objective_inv_veneti_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_raetia;
+				//province inv_liguria;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key champion;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_veneti_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_2_1_heading;
+				description 	mission_text_text_objective_inv_veneti_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_civil_tribal_council_mint;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_2_2_heading;
+				description 	mission_text_text_objective_inv_veneti_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_commons_public_3;
+					faction inv_veneti;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_veneti_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_3_primary_heading;
+			description mission_text_text_objective_inv_veneti_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_lepontii;
+				//province inv_gallia_transpadana;
+				//province inv_etruria;
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_veneti_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_3_1_heading;
+				description 	mission_text_text_objective_inv_veneti_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_3_2_heading;
+				description 	mission_text_text_objective_inv_veneti_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_veneti_warrior_missile_cav;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_veneti_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_4_primary_heading;
+			description mission_text_text_objective_inv_veneti_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_BARBARIAN_city_minor_horse_3;
+				faction inv_veneti;		
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_veneti_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_4_1_heading;
+				description 	mission_text_text_objective_inv_veneti_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_rome;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_4_2_heading;
+				description 	mission_text_text_objective_inv_veneti_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_enclosure_industry_4;
+					faction inv_veneti;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_veneti_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_5_primary_heading;
+			description mission_text_text_objective_inv_veneti_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 11; 
+				//province inv_tuscia;
+				//province inv_sabinium;
+				//province inv_picenum;
+				//province inv_umbria;		
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_veneti_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_5_1_heading;
+				description 	mission_text_text_objective_inv_veneti_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_5_2_heading;
+				description 	mission_text_text_objective_inv_veneti_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_veneti_noble_cav;
+					unit inv_veneti_bodyguard_cav;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_veneti_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_6_primary_heading;
+			description mission_text_text_objective_inv_veneti_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 15; 
+				//province inv_venetia;
+				//province inv_gallia_cispadana;
+				//province inv_senonia;
+				//province inv_picenum;
+				//province inv_frentania;
+				//province inv_apulia;
+				//province inv_calabria;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_veneti_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_6_1_heading;
+				description 	mission_text_text_objective_inv_veneti_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_civil_farming_crop_rotation;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_6_2_heading;
+				description 	mission_text_text_objective_inv_veneti_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_commons_administration_4;
+					faction inv_veneti;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_veneti_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_veneti_7_primary_heading;
+			description mission_text_text_objective_inv_veneti_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_tarchuna;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_7_1_heading;
+				description 	mission_text_text_objective_inv_veneti_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_veneti_7_2_heading;
+				description 	mission_text_text_objective_inv_veneti_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_veneti_warrior_axemen;
+					unit inv_veneti_warrior_swordmen;
+					unit inv_veneti_noble_swordmen;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** INSUBRES ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_insubres_1_primary;	// First chapter-based mission for Insubres
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_1_primary_heading;
+			description mission_text_text_objective_inv_insubres_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_gallia_transpadana;
+				//province inv_lepontii;	
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key champion;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_insubres_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_1_1_heading;
+				description 	mission_text_text_objective_inv_insubres_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_civil_druidism_knowledge_of_the_oak;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_1_2_heading;
+				description 	mission_text_text_objective_inv_insubres_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_commons_trade_2;
+					faction inv_insubres;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_insubres_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_2_primary_heading;
+			description mission_text_text_objective_inv_insubres_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_liguria;
+				//province inv_raetia;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key spy;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_insubres_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_2_1_heading;
+				description 	mission_text_text_objective_inv_insubres_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_warrior_code_headhunt;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_2_2_heading;
+				description 	mission_text_text_objective_inv_insubres_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_enclosure_drain_2;
+					building_level	rom_BARBARIAN_enclosure_water_2;
+					faction inv_insubres;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_insubres_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_3_primary_heading;
+			description mission_text_text_objective_inv_insubres_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_venetia;
+				//province inv_gallia_cispadana;
+				//province inv_etruria;
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_insubres_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_3_1_heading;
+				description 	mission_text_text_objective_inv_insubres_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_3_2_heading;
+				description 	mission_text_text_objective_inv_insubres_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_insubres_warrior_axemen;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_insubres_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_4_primary_heading;
+			description mission_text_text_objective_inv_insubres_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_BARBARIAN_commons_public_4;
+				faction inv_insubres;
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_insubres_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_4_1_heading;
+				description 	mission_text_text_objective_inv_insubres_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_iolei;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_4_2_heading;
+				description 	mission_text_text_objective_inv_insubres_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_commons_military_4;
+					faction inv_insubres;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_insubres_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_5_primary_heading;
+			description mission_text_text_objective_inv_insubres_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 11; 
+				//province inv_tuscia;
+				//province inv_sabinium;
+				//province inv_picenum;
+				//province inv_umbria;		
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_insubres_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_5_1_heading;
+				description 	mission_text_text_objective_inv_insubres_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_5_2_heading;
+				description 	mission_text_text_objective_inv_insubres_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_insubres_noble_swordmen;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_insubres_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_6_primary_heading;
+			description mission_text_text_objective_inv_insubres_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 15; 
+				//province inv_corsica;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_insubres_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_6_1_heading;
+				description 	mission_text_text_objective_inv_insubres_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_war_exercises_servants_of_the_elite;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_6_2_heading;
+				description 	mission_text_text_objective_inv_insubres_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level	rom_BARBARIAN_commons_slave_4;
+					faction inv_insubres;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_insubres_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_insubres_7_primary_heading;
+			description mission_text_text_objective_inv_insubres_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_senones;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_7_1_heading;
+				description 	mission_text_text_objective_inv_insubres_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_insubres_7_2_heading;
+				description 	mission_text_text_objective_inv_insubres_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_insubres_warrior_shieldwall;
+					unit inv_insubres_noble_shieldwall;
+				}
+				payload
+				{
+					money 1045;
+				}
+			}
+		}
+	}
+	
+	//************** IOLEI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_iolei_1_primary;	// First chapter-based mission for Iolei
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_1_primary_heading;
+			description mission_text_text_objective_inv_iolei_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_ioleia;
+				//province inv_balaria;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key champion;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_iolei_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_1_1_heading;
+				description 	mission_text_text_objective_inv_iolei_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_warrior_code_headhunt;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_1_2_heading;
+				description 	mission_text_text_objective_inv_iolei_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_BARBARIAN_commons_trade_2;
+					faction inv_iolei;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_iolei_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_2_primary_heading;
+			description mission_text_text_objective_inv_iolei_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 3; 
+				//province inv_corsica;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key dignitary;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_iolei_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_2_1_heading;
+				description 	mission_text_text_objective_inv_iolei_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_warrior_code_war_horn;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_2_2_heading;
+				description 	mission_text_text_objective_inv_iolei_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level inv_nur_religious_sardus_3;
+					faction inv_iolei;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_iolei_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_3_primary_heading;
+			description mission_text_text_objective_inv_iolei_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_liguria;
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_iolei_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_3_1_heading;
+				description 	mission_text_text_objective_inv_iolei_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_3_2_heading;
+				description 	mission_text_text_objective_inv_iolei_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_iol_nuragic_ambushers;
+					unit inv_iol_iolean_javelinmen;
+
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_iolei_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_4_primary_heading;
+			description mission_text_text_objective_inv_iolei_4_primary_description;
+			objective
+			{
+				type RESEARCH_TECHNOLOGY;
+				technology rom_gaul_civil_tribal_council_timber_trackway;
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_iolei_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_4_1_heading;
+				description 	mission_text_text_objective_inv_iolei_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_4_2_heading;
+				description 	mission_text_text_objective_inv_iolei_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_BARBARIAN_port_major_food_4;
+					faction inv_iolei;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_iolei_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_5_primary_heading;
+			description mission_text_text_objective_inv_iolei_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 7; 
+				//province inv_elymia;
+				//province inv_gallia_cispadana;
+				//province inv_etruria;		
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_iolei_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_5_1_heading;
+				description 	mission_text_text_objective_inv_iolei_5_1_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;
+					total 1;
+					region inv_senonia_ariminum;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_5_2_heading;
+				description 	mission_text_text_objective_inv_iolei_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_iol_noble_sardi_archers;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_iolei_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_6_primary_heading;
+			description mission_text_text_objective_inv_iolei_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 12; 
+				//province inv_carthago;
+				//province inv_latium;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_iolei_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_6_1_heading;
+				description 	mission_text_text_objective_inv_iolei_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_engineering_construction_double_wall_construction;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_6_2_heading;
+				description 	mission_text_text_objective_inv_iolei_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level rom_BARBARIAN_enclosure_stables_4;
+					faction inv_iolei;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_iolei_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_iolei_7_primary_heading;
+			description mission_text_text_objective_inv_iolei_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_carthage;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_7_1_heading;
+				description 	mission_text_text_objective_inv_iolei_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_iolei_7_2_heading;
+				description 	mission_text_text_objective_inv_iolei_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_iol_sherden_swordsmen;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** SENONES ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_senones_1_primary;	// First chapter-based mission for Senones
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_1_primary_heading;
+			description mission_text_text_objective_inv_senones_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_senonia;
+				//province inv_picenum;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key spy;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_senones_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_1_1_heading;
+				description 	mission_text_text_objective_inv_senones_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_civil_druidism_knowledge_of_the_oak;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_1_2_heading;
+				description 	mission_text_text_objective_inv_senones_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_religious_celtic_Tuotatis_2;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_senones_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_2_primary_heading;
+			description mission_text_text_objective_inv_senones_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;
+				total 4; 
+				//province inv_gallia_cispadana;
+				//province inv_etruria;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key dignitary;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_senones_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_2_1_heading;
+				description 	mission_text_text_objective_inv_senones_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_warrior_code_war_dance;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_2_2_heading;
+				description 	mission_text_text_objective_inv_senones_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_artisans_major_bronze_3;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_senones_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_3_primary_heading;
+			description mission_text_text_objective_inv_senones_3_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+				total 1;
+				region inv_calabria_taranto;
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_senones_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_3_1_heading;
+				description 	mission_text_text_objective_inv_senones_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_3_2_heading;
+				description 	mission_text_text_objective_inv_senones_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_senones_warrior_javelins;
+					unit inv_senones_noble_javelins;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_senones_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_4_primary_heading;
+			description mission_text_text_objective_inv_senones_4_primary_description;
+			objective
+			{
+				type CONSTRUCT_BUILDING; 
+				building_level rom_BARBARIAN_commons_public_4;
+				faction inv_senones;
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_senones_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_4_1_heading;
+				description 	mission_text_text_objective_inv_senones_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_syracuse;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_4_2_heading;
+				description 	mission_text_text_objective_inv_senones_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level	rom_BARBARIAN_artisans_major_salt_4;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_senones_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_5_primary_heading;
+			description mission_text_text_objective_inv_senones_5_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+				total 1;
+				region inv_roma_roma;	
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_senones_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_5_1_heading;
+				description 	mission_text_text_objective_inv_senones_5_1_description;
+				objective
+				{
+					type ERADICATE_FACTION;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_5_2_heading;
+				description 	mission_text_text_objective_inv_senones_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_senones_warrior_swordmen;
+					unit inv_senones_noble_swordmen;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_senones_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_6_primary_heading;
+			description mission_text_text_objective_inv_senones_6_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+				total 1;
+				region inv_carthago_carthago;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_senones_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_6_1_heading;
+				description 	mission_text_text_objective_inv_senones_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_engineering_siege_siege_tower;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_6_2_heading;
+				description 	mission_text_text_objective_inv_senones_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_BARBARIAN_commons_administration_4;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_senones_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_senones_7_primary_heading;
+			description mission_text_text_objective_inv_senones_7_primary_description;
+			objective
+			{
+				type ERADICATE_FACTION;
+				faction inv_taranto;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_7_1_heading;
+				description 	mission_text_text_objective_inv_senones_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_senones_7_2_heading;
+				description 	mission_text_text_objective_inv_senones_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_senones_warrior_javelins;
+					unit inv_senones_noble_javelins;
+					unit inv_senones_warrior_missile_cav;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+	
+	//************** TARCHUNA ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_inv_tarchuna_1_primary;	// First chapter-based mission for Tarchuna
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_1_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 2; 
+				//province inv_tarchuna;
+				//province inv_tuscia;
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key spy;
+					location capital;
+				}
+				
+				//money 3500;
+				issue_mission objective_inv_tarchuna_2_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_1_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_engineering_construction_tax_labour;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+			
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_1_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_ROMAN_forum_storage_2;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 3300;
+				}
+			}
+		}
+	}
+	
+		mission
+	{
+		chapter 2;						
+		key objective_inv_tarchuna_2_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_2_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING; 
+				total 4; 
+				//province inv_umbria;
+				//province inv_etruria; 
+			}
+			payload
+			{
+				grant_agent
+				{
+					agent_key champion;
+					location capital;
+				}
+				
+				//money 4800;
+				issue_mission objective_inv_tarchuna_3_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_2_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_military_tactics_tactical_drills;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_2_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_ROMAN_outskirts_minor_grain_4;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 3600;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 3;						
+		key objective_inv_tarchuna_3_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_3_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_3_primary_description;
+			objective
+			{
+				//type OWN_N_PROVINCES_WITH_CULTURAL_DOMINANCE;
+				//total 7;
+				type ERADICATE_FACTION;
+				faction inv_rome;
+			}
+			payload
+			{
+				money 6100;
+				issue_mission objective_inv_tarchuna_4_primary;
+			}
+		}
+		
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_3_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_3_1_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_3_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_3_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_etruscan_warrior_hoplite;
+				}
+				payload
+				{
+					money 3800;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 4;						
+		key objective_inv_tarchuna_4_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_4_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_4_primary_description;
+			objective
+			{
+				type RESEARCH_TECHNOLOGY;
+				technology rom_roman_civil_philosophy_astronomy;
+			}
+			payload
+			{
+				money 8400;
+				issue_mission objective_inv_tarchuna_5_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_4_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_4_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction inv_taranto;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_4_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_4_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	rom_ROMAN_port_food_3;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 4050;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 5;						
+		key objective_inv_tarchuna_5_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_5_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_5_primary_description;
+			objective
+			{
+				type OWN_N_PROVINCES_WITH_CULTURAL_DOMINANCE;
+				total 11;	
+			}
+			payload
+			{
+				money 13200;
+				issue_mission objective_inv_tarchuna_6_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_5_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_5_1_description;
+				objective
+				{
+					//type ERADICATE_FACTION;
+					//faction inv_rome; 
+					type ERADICATE_FACTION;
+					faction inv_senones;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_5_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_5_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 8;
+					unit inv_etruscan_light_hoplites;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 6;						
+		key objective_inv_tarchuna_6_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_6_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_6_primary_description;
+			objective
+			{
+				type OWN_N_PROVINCES_WITH_CULTURAL_DOMINANCE;
+				total 15;		
+			}
+			payload
+			{
+				money 18000;
+				issue_mission objective_inv_tarchuna_7_primary;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_6_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_6_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_philosophy_natural_philosophy;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_6_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING; 
+					building_level	inv_new_etr_main_religion_research_6;
+					faction inv_tarchuna;
+				}
+				payload
+				{
+					money 8550;
+				}
+			}
+		}
+	}
+			mission
+	{
+		chapter 7;						
+		key objective_inv_tarchuna_7_primary;	
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_inv_tarchuna_7_primary_heading;
+			description mission_text_text_objective_inv_tarchuna_7_primary_description;
+			objective
+			{
+				//type ERADICATE_FACTION;
+				//faction inv_iolei;
+				type ERADICATE_FACTION;
+				faction inv_insubres;
+			
+			}
+			payload
+			{
+				money 21600;
+			}
+		}
+					
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_7_1_heading;
+				description 	mission_text_text_objective_inv_tarchuna_7_1_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;
+					exclude_resource res_rom_spices;
+					exclude_resource res_rom_glass;
+					exclude_resource res_rom_textiles;	
+				}
+				payload
+				{
+					money 11030;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_inv_tarchuna_7_2_heading;
+				description 	mission_text_text_objective_inv_tarchuna_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 20;
+					unit inv_etruscan_warrior_hoplite;
+					unit inv_etruscan_noble_hoplite;
+				}
+				payload
+				{
+					money 11045;
+				}
+			}
+		}
+	}
+}

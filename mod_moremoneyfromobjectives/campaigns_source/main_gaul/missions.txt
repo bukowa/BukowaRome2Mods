@@ -1,0 +1,3568 @@
+scripted_missions
+{
+	//************** ROME ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_rome_1_primary;	// First chapter-based mission for Rome
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_rome_1_primary_heading;
+			description mission_text_text_objective_cig_rome_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 3;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_rome_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_1_capture_helvetia_heading;
+				description 	mission_text_text_objective_cig_rome_1_capture_helvetia_description;
+				objective
+				{
+					type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_helvetia;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_rome_1_subjugate_helvetii_heading;
+				description 	mission_text_text_objective_cig_rome_1_subjugate_helvetii_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_helvetii;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_rome_1_befriend_neighbours_heading;
+				description 	mission_text_text_objective_cig_rome_1_befriend_neighbours_description;
+				objective
+				{
+					type MAKE_ALLIANCE;	
+					faction gaul_aedui;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_rome_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_2_primary_heading;
+			description mission_text_text_objective_cig_rome_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_rome_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_2_consolidation_heading;
+				description 	mission_text_text_objective_cig_rome_2_consolidation_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 4;
+					unit Aux_Cav_Gaul;
+					unit Aux_Infantry_Gaul;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_2_buffer_zone_heading;
+				description 	mission_text_text_objective_cig_rome_2_buffer_zone_description;
+				objective
+				{
+					type MAINTAIN_N_CLIENT_STATES;
+					total 3;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_2_news_rome_heading;
+				description 	mission_text_text_objective_cig_rome_2_news_rome_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_roman_politics_caesar_1_appoint_legates;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_rome_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_3_primary_heading;
+			description mission_text_text_objective_cig_rome_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 15;				
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_rome_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_3_suebi_heading;
+				description 	mission_text_text_objective_cig_rome_3_suebi_description;
+				objective
+				{
+					type MAKE_CLIENT_STATE_OF_FACTION;	
+					faction gaul_aedui;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_3_border_expansion_heading;
+				description 	mission_text_text_objective_cig_rome_3_border_expansion_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 3;
+					region gaul_maxima_sequanorum_rauricon;
+					region gaul_maxima_sequanorum_vesontio;
+					region gaul_silva_nigra_argentorate;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_rome_3_king_of_north_heading;
+				description 	mission_text_text_objective_cig_rome_3_king_of_north_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_suebi;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_rome_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_4_primary_heading;
+			description mission_text_text_objective_cig_rome_4_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_arduenna_silva;
+				province gaul_main_germania_inferior;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_rome_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			//TODO: add objective "Nervii of Steel"
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_4_map_heading;
+				description 	mission_text_text_objective_cig_rome_4_map_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 15;
+					unit Aux_Cav_Gaul;
+					unit Aux_Infantry_Gaul;
+					unit Aux_Infantry_Frisii;
+					unit Aux_Infantry_Ubii;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_4_buduognatus_heading;
+				description 	mission_text_text_objective_cig_rome_4_buduognatus_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_nervii;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_4_destroy_nervii_heading;
+				description 	mission_text_text_objective_cig_rome_4_destroy_nervii_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	
+					total 1;
+					region gaul_germania_inferior_bagacum;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_rome_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_5_primary_heading;
+			description mission_text_text_objective_cig_rome_5_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;
+				total 80;
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_rome_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_5_water_heading;
+				description 	mission_text_text_objective_cig_rome_5_water_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region gaul_silva_carbonaria_gesoriacum;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_5_crossing_channel_heading;
+				description 	mission_text_text_objective_cig_rome_5_crossing_channel_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;	
+					total 10;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_5_democratic_process_heading;
+				description 	mission_text_text_objective_cig_rome_5_democratic_process_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_roman_politics_crassus_3_support_syrian_claim;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_rome_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_6_primary_heading;
+			description mission_text_text_objective_cig_rome_6_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_britannia;
+				province gaul_main_lutetia;
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_rome_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_6_self_aggrandizement_heading;
+				description 	mission_text_text_objective_cig_rome_6_self_aggrandizement_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_belgae;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_6_punitive_expeditions_heading;
+				description 	mission_text_text_objective_cig_rome_6_punitive_expeditions_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_aremorica;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_6_choice_heading;
+				description 	mission_text_text_objective_cig_rome_6_choice_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_roman_politics_caesar_3_bribe_gaius_scribonius_curio;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_rome_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_7_primary_heading;
+			description mission_text_text_objective_cig_rome_7_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 3;
+				province gaul_main_narbonensis;
+				province gaul_main_gergovia;
+				province gaul_main_pictavis;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_rome_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_7_into_heartland_heading;
+				description 	mission_text_text_objective_cig_rome_7_into_heartland_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_arverni;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_7_martial_rule_heading;
+				description 	mission_text_text_objective_cig_rome_7_martial_rule_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 100;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_rome_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_rome_8_primary_heading;
+			description mission_text_text_objective_cig_rome_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_8_cleanup_heading;
+				description 	mission_text_text_objective_cig_rome_8_cleanup_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_aquitania;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_8_buduognatus_heading;
+				description 	mission_text_text_objective_cig_rome_8_buduognatus_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_roman_politics_pompey_3_return_legion;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_rome_8_legionaries_heading;
+				description 	mission_text_text_objective_cig_rome_8_legionaries_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit Rom_First_Cohort;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+		}
+	}
+	
+	//************** ARVERNI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_arverni_1_primary;	// First chapter-based mission for Arverni
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_arverni_1_primary_heading;
+			description mission_text_text_objective_cig_arverni_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 5;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_arverni_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_arverni_1_capture_gergovia_heading;
+				description 	mission_text_text_objective_cig_arverni_1_capture_gergovia_description;
+				objective
+				{
+					type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_gergovia;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_1_maintain_army_heading;
+				description 	mission_text_text_objective_cig_arverni_1_maintain_army_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 25;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_1_tech_oak_heading;
+				description 	mission_text_text_objective_cig_arverni_1_tech_oak_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_druids_1_knowldege_of_the_oak;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_arverni_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_2_primary_heading;
+			description mission_text_text_objective_cig_arverni_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 2;
+				province gaul_main_lugdunensis;	
+				province gaul_main_pictavis;					
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_arverni_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_2_confederation_heading;
+				description 	mission_text_text_objective_cig_arverni_2_confederation_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;	
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_2_aedui_heading;
+				description 	mission_text_text_objective_cig_arverni_2_aedui_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_aedui;	
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_2_skill_at_arms_heading;
+				description 	mission_text_text_objective_cig_arverni_2_skill_at_arms_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit Cel_Chosen_Sword;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_arverni_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_3_primary_heading;
+			description mission_text_text_objective_cig_arverni_3_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 60;					
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_arverni_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_3_way_of_life_heading;
+				description 	mission_text_text_objective_cig_arverni_3_way_of_life_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_development_infrastructure_2_perennial_irrigation;	
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_3_organised_resistance_heading;
+				description 	mission_text_text_objective_cig_arverni_3_organised_resistance_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;	
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_arverni_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_4_primary_heading;
+			description mission_text_text_objective_cig_arverni_4_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 4;					
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_arverni_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_arverni_4_old_wounds_heading;
+				description mission_text_text_objective_cig_arverni_4_old_wounds_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_suebi;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_4_destroy_aedui_heading;
+				description 	mission_text_text_objective_cig_arverni_4_destroy_aedui_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_aedui;	
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_4_land_to_sea_heading;
+				description 	mission_text_text_objective_cig_arverni_4_land_to_sea_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region gaul_narbonensis_narbo_martius;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_arverni_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_5_primary_heading;
+			description mission_text_text_objective_cig_arverni_5_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;		
+				total 80;					
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_arverni_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_arverni_5_settling_score_heading;
+				description mission_text_text_objective_cig_arverni_5_settling_score_description;
+				objective	
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	
+					total 1;
+					region gaul_maxima_sequanorum_rauricon;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_5_who_am_i_heading;
+				description 	mission_text_text_objective_cig_arverni_5_who_am_i_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_people_2_cultural_identity;	
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_5_whats_yours_heading;
+				description 	mission_text_text_objective_cig_arverni_5_whats_yours_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_senonia;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_arverni_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_6_primary_heading;
+			description mission_text_text_objective_cig_arverni_6_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;		
+				total 10;					
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_arverni_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_6_fire_rises_heading;
+				description 	mission_text_text_objective_cig_arverni_6_fire_rises_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 2;	
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_6_alesia_heading;
+				description 	mission_text_text_objective_cig_arverni_6_alesia_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_senonia_alesia;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_6_the_pyranees_heading;
+				description 	mission_text_text_objective_cig_arverni_6_the_pyranees_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_aquitania;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_arverni_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_7_primary_heading;
+			description mission_text_text_objective_cig_arverni_7_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+				total 1;
+				province gaul_main_insubria;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_arverni_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_7_oncoming_storm_heading;
+				description 	mission_text_text_objective_cig_arverni_7_oncoming_storm_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 5;	
+					unit Cel_Oathsworn;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_arverni_7_defeat_caesar_heading;
+				description mission_text_text_objective_cig_arverni_7_defeat_caesar_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_latin;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_7_confederation_heading;
+				description 	mission_text_text_objective_cig_arverni_7_confederation_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_people_3_confederation;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_arverni_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_arverni_8_primary_heading;
+			description mission_text_text_objective_cig_arverni_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_8_ashes_to_ashes_heading;
+				description 	mission_text_text_objective_cig_arverni_8_ashes_to_ashes_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	 
+					total 1;
+					region gaul_liguria_genua;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_8_ave_imperium_heading;
+				description 	mission_text_text_objective_cig_arverni_8_ave_imperium_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_rome;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_8_gallic_empire_heading;
+				description 	mission_text_text_objective_cig_arverni_8_gallic_empire_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 2;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	
+	//************** NERVII ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_nervii_1_primary;	// First chapter-based mission for Nervii
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_nervii_1_primary_heading;
+			description mission_text_text_objective_cig_nervii_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 6;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_nervii_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_1_live_for_battle_heading;
+				description 	mission_text_text_objective_cig_nervii_1_live_for_battle_description;
+				objective
+				{
+					type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_germania_inferior;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_nervii_1_always_ready_heading;
+				description 	mission_text_text_objective_cig_nervii_1_always_ready_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 25;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_nervii_1_pointy_end_heading;
+				description 	mission_text_text_objective_cig_nervii_1_pointy_end_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_development_military_1_physical_conditioning;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_nervii_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_2_primary_heading;
+			description mission_text_text_objective_cig_nervii_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_nervii_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_2_mutual_benefit_heading;
+				description 	mission_text_text_objective_cig_nervii_2_mutual_benefit_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_nervii_2_loose_lips_heading;
+				description 	mission_text_text_objective_cig_nervii_2_loose_lips_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_remi;	
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_nervii_2_partisan_decision_heading;
+				description 	mission_text_text_objective_cig_nervii_2_partisan_decision_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit bel_veteran_swordsmen;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_nervii_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_3_primary_heading;
+			description mission_text_text_objective_cig_nervii_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_arduenna_silva;
+				province gaul_main_silva_carbonaria;
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_nervii_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_3_fertile_land_heading;
+				description 	mission_text_text_objective_cig_nervii_3_fertile_land_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_people_2_grain_kiln;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_3_fight_heading;
+				description 	mission_text_text_objective_cig_nervii_3_fight_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_3_cultural_annihilation_heading;
+				description 	mission_text_text_objective_cig_nervii_3_cultural_annihilation_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_suessiones;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_nervii_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_4_primary_heading;
+			description mission_text_text_objective_cig_nervii_4_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_nervii_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_nervii_4_weakness_heading;
+				description mission_text_text_objective_cig_nervii_4_weakness_description;
+				objective	
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_aedui;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_nervii_4_march_to_war_heading;
+				description mission_text_text_objective_cig_nervii_4_march_to_war_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_rome;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_4_cultural_osmosis_heading;
+				description 	mission_text_text_objective_cig_nervii_4_cultural_osmosis_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;	
+					total 5;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_nervii_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_5_primary_heading;
+			description mission_text_text_objective_cig_nervii_5_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 80;
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_nervii_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_5_green_land_heading;
+				description 	mission_text_text_objective_cig_nervii_5_green_land_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_britannia_durovernon;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_5_dead_body_heading;
+				description 	mission_text_text_objective_cig_nervii_5_dead_body_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit bel_elite_swordsmen;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_5_revolt_heading;
+				description 	mission_text_text_objective_cig_nervii_5_revolt_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 2;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_nervii_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_6_primary_heading;
+			description mission_text_text_objective_cig_nervii_6_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	
+				total 10;
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_nervii_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_6_into_south_heading;
+				description 	mission_text_text_objective_cig_nervii_6_into_south_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province gaul_main_silva_nigra;
+					province gaul_main_maxima_sequanorum;
+					province gaul_main_helvetia;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_6_neither_heading;
+				description 	mission_text_text_objective_cig_nervii_6_neither_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;
+					total 15;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_6_unending_battle_heading;
+				description 	mission_text_text_objective_cig_nervii_6_unending_battle_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_vangiones;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_nervii_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_7_primary_heading;
+			description mission_text_text_objective_cig_nervii_7_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_insubria;
+				province gaul_main_liguria;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_nervii_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_7_thousand_men_heading;
+				description 	mission_text_text_objective_cig_nervii_7_thousand_men_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit bel_elite_spearmen;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_nervii_7_caesar_perpetuo_heading;
+				description mission_text_text_objective_cig_nervii_7_caesar_perpetuo_description;
+				objective	
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_latin;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_7_council_war_heading;
+				description 	mission_text_text_objective_cig_nervii_7_council_war_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_aristocracy_3_war_chiefs;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_nervii_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_nervii_8_primary_heading;
+			description mission_text_text_objective_cig_nervii_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_8_might_have_heading;
+				description 	mission_text_text_objective_cig_nervii_8_might_have_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_britannia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_8_ave_imperium_heading;
+				description 	mission_text_text_objective_cig_nervii_8_ave_imperium_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_rome;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_8_arm_in_arms_heading;
+				description 	mission_text_text_objective_cig_nervii_8_arm_in_arms_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 2;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+		}
+	}
+	
+	
+	//************** SUEBI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_suebi_1_primary;	// First chapter-based mission for Suebi
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_suebi_1_primary_heading;
+			description mission_text_text_objective_cig_suebi_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 6;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_suebi_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_1_from_danube_heading;
+				description 	mission_text_text_objective_cig_suebi_1_from_danube_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region gaul_arduenna_silva_divoduron;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_suebi_1_live_land_heading;
+				description 	mission_text_text_objective_cig_suebi_1_live_land_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_0_supply_foraging;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_suebi_1_your_king_heading;
+				description mission_text_text_objective_cig_suebi_1_your_king_description;
+				objective	
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_celtic;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_suebi_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_2_primary_heading;
+			description mission_text_text_objective_cig_suebi_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_suebi_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_2_pax_germanica_heading;
+				description 	mission_text_text_objective_cig_suebi_2_pax_germanica_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_suebi_2_bloodsworn_heading;
+				description 	mission_text_text_objective_cig_suebi_2_bloodsworn_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit Ger_Bloodsworn;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_suebi_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_3_primary_heading;
+			description mission_text_text_objective_cig_suebi_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 2;
+				province gaul_main_helvetia;
+				province gaul_main_arduenna_silva;
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_suebi_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_3_flesh_wound_heading;
+				description 	mission_text_text_objective_cig_suebi_3_flesh_wound_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_development_culture_1_field_surgery;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_3_destroy_aedui_heading;
+				description 	mission_text_text_objective_cig_suebi_3_destroy_aedui_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_aedui;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_suebi_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_4_primary_heading;
+			description mission_text_text_objective_cig_suebi_4_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 15;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_suebi_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_4_vesontio_heading;
+				description 	mission_text_text_objective_cig_suebi_4_vesontio_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_maxima_sequanorum_vesontio;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_suebi_4_crossing_rhine_heading;
+				description mission_text_text_objective_cig_suebi_4_crossing_rhine_description;
+				objective
+				{
+					type OWN_A_REGION_IN_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_insubria;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_4_friends_heading;
+				description 	mission_text_text_objective_cig_suebi_4_friends_description;
+				objective
+				{
+					type MAKE_ALLIANCE;	
+					faction gaul_arverni;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_suebi_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_5_primary_heading;
+			description mission_text_text_objective_cig_suebi_5_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+				total 1;
+				province gaul_main_arduenna_silva;
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_suebi_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_5_over_horizon_heading;
+				description 	mission_text_text_objective_cig_suebi_5_over_horizon_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_germania_inferior_bagacum;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_5_over_horizon_heading;
+				description 	mission_text_text_objective_cig_suebi_5_over_horizon_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_druids_2_temple_of_the_oak;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_5_hoof_heading;
+				description 	mission_text_text_objective_cig_suebi_5_hoof_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit Ger_Noble_Riders;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_suebi_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_6_primary_heading;
+			description mission_text_text_objective_cig_suebi_6_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_suebi_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_suebi_6_gaul_heading;
+				description 	mission_text_text_objective_cig_suebi_6_gaul_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_arverni;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_6_ring_conqueror_heading;
+				description 	mission_text_text_objective_cig_suebi_6_ring_conqueror_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_latin;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_6_rome_heading;
+				description 	mission_text_text_objective_cig_suebi_6_rome_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region gaul_insubria_vercelum;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_suebi_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_7_primary_heading;
+			description mission_text_text_objective_cig_suebi_7_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_senonia;
+				province gaul_main_gergovia;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_suebi_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_7_cover_heart_heading;
+				description 	mission_text_text_objective_cig_suebi_7_cover_heart_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_germanic_politics_elders_2_human_sacrifice;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_7_struck_nervii_heading;
+				description 	mission_text_text_objective_cig_suebi_7_struck_nervii_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_nervii;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_7_unending_horde_heading;
+				description 	mission_text_text_objective_cig_suebi_7_unending_horde_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 120;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_suebi_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_suebi_8_primary_heading;
+			description mission_text_text_objective_cig_suebi_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_8_stone_unturned_heading;
+				description 	mission_text_text_objective_cig_suebi_8_stone_unturned_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 1;	
+					province gaul_main_silva_carbonaria;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_8_why_stop_heading;
+				description 	mission_text_text_objective_cig_suebi_8_why_stop_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	 
+					total 1;
+					faction gaul_rome;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_suebi_8_cut_head_heading;
+				description 	mission_text_text_objective_cig_suebi_8_cut_head_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_liguria_genua;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	//************** TARBELLI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_tarbelli_1_primary;	// First chapter-based mission for tarbelli
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_tarbelli_1_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 5;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_tarbelli_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_1_capture_gergovia_heading;
+				description 	mission_text_text_objective_cig_tarbelli_1_capture_gergovia_description;
+				objective
+				{
+					type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_aquitania;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_1_maintain_army_heading;
+				description 	mission_text_text_objective_cig_tarbelli_1_maintain_army_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 25;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_1_tech_oak_heading;
+				description 	mission_text_text_objective_cig_arverni_1_tech_oak_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_druids_1_knowldege_of_the_oak;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_tarbelli_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_2_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 2;
+				province gaul_main_narbonensis;	
+				province gaul_main_pictavis;					
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_tarbelli_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_2_confederation_heading;
+				description 	mission_text_text_objective_cig_tarbelli_2_confederation_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;	
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli2_aedui_heading;
+				description 	mission_text_text_objective_cig_tarbelli_2_aedui_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_cadurci;	
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_2_skill_at_arms_heading;
+				description 	mission_text_text_objective_cig_arverni_2_skill_at_arms_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit Ibe_Sword;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_tarbelli_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_3_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_3_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 60;					
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_tarbelli_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_3_way_of_life_heading;
+				description 	mission_text_text_objective_cig_tarbelli_3_way_of_life_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_development_infrastructure_2_perennial_irrigation;	
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_3_organised_resistance_heading;
+				description 	mission_text_text_objective_cig_tarbelli_3_organised_resistance_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;	
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_tarbelli_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_4_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_4_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 4;					
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_tarbelli_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_tarbelli_4_old_wounds_heading;
+				description mission_text_text_objective_cig_tarbelli_4_old_wounds_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_arverni;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_4_destroy_aedui_heading;
+				description 	mission_text_text_objective_cig_arverni_4_destroy_aedui_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_aedui;	
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_4_land_to_sea_heading;
+				description 	mission_text_text_objective_cig_arverni_4_land_to_sea_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region gaul_narbonensis_narbo_martius;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_tarbelli_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_5_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_5_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;		
+				total 80;					
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_tarbelli_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_5_who_am_i_heading;
+				description 	mission_text_text_objective_cig_tarbelli_5_who_am_i_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_people_2_cultural_identity;	
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_5_whats_yours_heading;
+				description 	mission_text_text_objective_cig_tarbelli_5_whats_yours_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_gergovia;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_tarbelli_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_6_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_6_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;		
+				total 10;					
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_tarbelli_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_6_alesia_heading;
+				description 	mission_text_text_objective_cig_arverni_6_alesia_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_senonia_alesia;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_6_the_pyranees_heading;
+				description 	mission_text_text_objective_cig_tarbelli_6_the_pyranees_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_transalpina;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_tarbelli_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_7_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_7_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+				total 1;
+				province gaul_main_insubria;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_tarbelli_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_7_oncoming_storm_heading;
+				description 	mission_text_text_objective_cig_arverni_7_oncoming_storm_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 5;	
+					unit Ibe_Noble_Fighters;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_arverni_7_defeat_caesar_heading;
+				description mission_text_text_objective_cig_arverni_7_defeat_caesar_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_latin;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_7_confederation_heading;
+				description 	mission_text_text_objective_cig_arverni_7_confederation_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_people_3_confederation;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_tarbelli_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_tarbelli_8_primary_heading;
+			description mission_text_text_objective_cig_tarbelli_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_8_ashes_to_ashes_heading;
+				description 	mission_text_text_objective_cig_tarbelli_8_ashes_to_ashes_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	 
+					total 1;
+					region gaul_liguria_genua;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_tarbelli_8_ave_imperium_heading;
+				description 	mission_text_text_objective_cig_tarbelli_8_ave_imperium_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_rome;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	//************** CANTIACI****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_cantiaci_1_primary;	// First chapter-based mission for cantiaci
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_cantiaci_1_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 5;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_cantiaci_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_1_live_for_battle_heading;
+				description 	mission_text_text_objective_cig_cantiaci_1_live_for_battle_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_britannia_venta_belgarum;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_1_always_ready_heading;
+				description 	mission_text_text_objective_cig_cantiaci_1_always_ready_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 25;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_1_pointy_end_heading;
+				description 	mission_text_text_objective_cig_cantiaci_1_pointy_end_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_development_military_1_physical_conditioning;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_cantiaci_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_2_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_cantiaci_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_2_mutual_benefit_heading;
+				description 	mission_text_text_objective_cig_nervii_2_mutual_benefit_description;
+				objective
+				{
+					type CONFEDERATE_FACTIONS;	
+					total 1;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_2_loose_lips_heading;
+				description 	mission_text_text_objective_cig_cantiaci_2_loose_lips_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_bellovaci;	
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_2_partisan_decision_heading;
+				description 	mission_text_text_objective_cig_cantiaci_2_partisan_decision_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit Bri_Ambushers;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_cantiaci_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_3_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_arduenna_silva;
+				province gaul_main_silva_carbonaria;
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_cantiaci_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_3_fertile_land_heading;
+				description 	mission_text_text_objective_cig_cantiaci_3_fertile_land_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_people_2_grain_kiln;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_3_cultural_annihilation_heading;
+				description 	mission_text_text_objective_cig_cantiaci_3_cultural_annihilation_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_parisii;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_cantiaci_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_4_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_4_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_cantiaci_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_nervii_4_weakness_heading;
+				description mission_text_text_objective_cig_nervii_4_weakness_description;
+				objective	
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_aedui;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_cantiaci_4_march_to_war_heading;
+				description mission_text_text_objective_cig_cantiaci_4_march_to_war_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_arverni;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_4_cultural_osmosis_heading;
+				description 	mission_text_text_objective_cig_cantiaci_4_cultural_osmosis_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;	
+					total 5;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_cantiaci_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_5_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_5_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 80;
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_cantiaci_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_5_green_land_heading;
+				description 	mission_text_text_objective_cig_cantiaci_5_green_land_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_lutetia_suindinum;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_5_dead_body_heading;
+				description 	mission_text_text_objective_cig_cantiaci_5_dead_body_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit Bri_Calawre;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_cantiaci_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_6_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_6_primary_description;
+			objective
+			{
+				type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	
+				total 10;
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_cantiaci_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_6_into_south_heading;
+				description 	mission_text_text_objective_cig_cantiaci_6_into_south_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province gaul_main_lutetia;
+					province gaul_main_silva_carbonaria;
+					province gaul_main_senonia;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_6_neither_heading;
+				description 	mission_text_text_objective_cig_cantiaci_6_neither_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;
+					total 15;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_6_unending_battle_heading;
+				description 	mission_text_text_objective_cig_cantiaci_6_unending_battle_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_aedui;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_cantiaci_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_7_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_7_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+				total 2;
+				province gaul_main_gergovia;
+				province gaul_main_lugdunensis;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_cantiaci_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_7_thousand_men_heading;
+				description 	mission_text_text_objective_cig_cantiaci_7_thousand_men_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 10;
+					unit Bri_Calawre;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_cantiaci_7_caesar_perpetuo_heading;
+				description mission_text_text_objective_cig_cantiaci_7_caesar_perpetuo_description;
+				objective	
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_latin;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_cantiaci_7_council_war_heading;
+				description 	mission_text_text_objective_cig_cantiaci_7_council_war_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_celtic_politics_aristocracy_3_war_chiefs;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_cantiaci_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_cantiaci_8_primary_heading;
+			description mission_text_text_objective_cig_cantiaci_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_8_might_have_heading;
+				description 	mission_text_text_objective_cig_nervii_8_might_have_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_transalpina;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_nervii_8_ave_imperium_heading;
+				description 	mission_text_text_objective_cig_nervii_8_ave_imperium_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_rome;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	//************** Massilia ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_cig_massilia_1_primary;	// First chapter-based mission for massilia
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_cig_massilia_1_primary_heading;
+			description mission_text_text_objective_cig_massilia_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 5;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_cig_massilia_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_cig_massilia_1_capture_gergovia_heading;
+				description 	mission_text_text_objective_cig_massilia_1_capture_gergovia_description;
+				objective
+				{
+					type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_transalpina;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_1_maintain_army_heading;
+				description 	mission_text_text_objective_cig_massilia_1_maintain_army_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 25;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_1_tech_oak_heading;
+				description 	mission_text_text_objective_cig_massilia_1_tech_oak_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_greek_civil_philosophy_natural_philosophy;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_cig_massilia_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_2_primary_heading;
+			description mission_text_text_objective_cig_massilia_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 1;
+				province gaul_main_lugdunensis;						
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_cig_massilia_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_2_aedui_heading;
+				description 	mission_text_text_objective_cig_massilia_2_aedui_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_arverni;	
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_2_skill_at_arms_heading;
+				description 	mission_text_text_objective_cig_massilia_2_skill_at_arms_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 2;
+					unit Mas_Armoured_Hoplites;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_cig_massilia_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_3_primary_heading;
+			description mission_text_text_objective_cig_massilia_3_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 60;					
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_cig_massilia_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_3_way_of_life_heading;
+				description 	mission_text_text_objective_cig_massilia_3_way_of_life_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_greek_civil_agriculture_perennial_irrigation;	
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_cig_massilia_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_4_primary_heading;
+			description mission_text_text_objective_cig_massilia_4_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;		
+				total 4;					
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_cig_massilia_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_massilia_4_old_wounds_heading;
+				description mission_text_text_objective_cig_massilia_4_old_wounds_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction gaul_pictones;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_4_destroy_aedui_heading;
+				description 	mission_text_text_objective_cig_massilia_4_destroy_aedui_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction gaul_arverni;	
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_4_land_to_sea_heading;
+				description 	mission_text_text_objective_cig_massilia_4_land_to_sea_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region gaul_lutetia_cenabum;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 5;						
+		key objective_cig_massilia_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_5_primary_heading;
+			description mission_text_text_objective_cig_massilia_5_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;		
+				total 80;					
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_cig_massilia_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_5_who_am_i_heading;
+				description 	mission_text_text_objective_cig_massilia_5_who_am_i_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_dlc_gaul_development_culture_1_multilingual;	
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_5_whats_yours_heading;
+				description 	mission_text_text_objective_cig_massilia_5_whats_yours_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_senonia;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_cig_massilia_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_6_primary_heading;
+			description mission_text_text_objective_cig_massilia_6_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 15;				
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_cig_massilia_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_arverni_6_alesia_heading;
+				description 	mission_text_text_objective_cig_arverni_6_alesia_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region gaul_senonia_alesia;
+				}
+				payload
+				{
+					money 3500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_6_the_pyranees_heading;
+				description 	mission_text_text_objective_cig_massilia_6_the_pyranees_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province gaul_main_aquitania;
+				}
+				payload
+				{
+					money 4500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_cig_massilia_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_7_primary_heading;
+			description mission_text_text_objective_cig_massilia_7_primary_description;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+				total 1;
+				province gaul_main_lutetia;
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_cig_massilia_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_7_oncoming_storm_heading;
+				description 	mission_text_text_objective_cig_massilia_7_oncoming_storm_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 5;	
+					unit Mas_Royal_Guard;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_cig_massilia_7_defeat_caesar_heading;
+				description mission_text_text_objective_cig_massilia_7_defeat_caesar_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_RELIGION;	
+					total 1;
+					religion rom_religion_dei_1;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_cig_massilia_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_cig_massilia_8_primary_heading;
+			description mission_text_text_objective_cig_massilia_8_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_8_ashes_to_ashes_heading;
+				description 	mission_text_text_objective_cig_massilia_8_ashes_to_ashes_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;	 
+					total 1;
+					region gaul_germania_inferior_bagacum;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_cig_massilia_8_ave_imperium_heading;
+				description 	mission_text_text_objective_cig_massilia_8_ave_imperium_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction gaul_nervii;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+}

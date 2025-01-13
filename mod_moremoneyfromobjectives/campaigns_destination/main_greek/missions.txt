@@ -1,0 +1,1751 @@
+scripted_missions
+{
+	//************** ATHENAI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pel_athenai_1_primary;	// First chapter-based mission for Athenai
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pel_athenai_1_primary_heading;
+			description 	mission_text_text_objective_pel_athenai_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 8;					
+			}
+			payload
+			{
+				money 15000;
+				issue_mission objective_pel_athenai_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_athenai_1_1_heading;
+				description 	mission_text_text_objective_pel_athenai_1_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;	
+					region pel_kalkidike_olinthos;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_athenai_1_2_heading;
+				description 	mission_text_text_objective_pel_athenai_1_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pel_civics_philosopphy_education;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_pel_athenai_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_2_primary_heading;
+			description mission_text_text_objective_pel_athenai_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;				
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_pel_athenai_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_pel_athenai_2_1_heading;
+				description	mission_text_text_objective_pel_athenai_2_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_military_main_heavy_2;
+					faction pel_athenai;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_pel_athenai_2_2_heading;
+				description	mission_text_text_objective_pel_athenai_2_2_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;
+					total 20;					
+				}
+				payload
+				{
+					money 12500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pel_athenai_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_3_primary_heading;
+			description	mission_text_text_objective_pel_athenai_3_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 1;			
+			}
+			payload
+			{
+				money 37500;
+				issue_mission objective_pel_athenai_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pel_athenai_3_1_heading;
+				description mission_text_text_objective_pel_athenai_3_1_description;
+				objective
+				{
+					type MAINTAIN_N_CLIENT_STATES;	
+					total 1;
+				}
+				payload
+				{
+					money 15000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pel_athenai_3_2_heading; 
+				description mission_text_text_objective_pel_athenai_3_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province pel_krete;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pel_athenai_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_4_primary_heading;
+			description	mission_text_text_objective_pel_athenai_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 7;			
+			}
+			payload
+			{
+				money 50000;
+				issue_mission objective_pel_athenai_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_4_1_heading;
+				description mission_text_text_objective_pel_athenai_4_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 3;
+					region pel_lakedaimon_sparta;
+					region pel_argolis_korinthos;
+					region pel_boiotia_thebai;
+				}
+				payload
+				{
+					money 30000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_4_2_heading;
+				description mission_text_text_objective_pel_athenai_4_2_description;
+				objective	
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pel_athenai_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_5_primary_heading;
+			description	mission_text_text_objective_pel_athenai_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;				
+			}
+			payload
+			{
+				money 65000;
+				issue_mission objective_pel_athenai_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_5_1_heading;
+				description mission_text_text_objective_pel_athenai_5_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pel_epeiros_elaea;
+				}
+				payload
+				{
+					money 40000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_5_2_heading;
+				description mission_text_text_objective_pel_athenai_5_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_civil_techs;
+					total 15;			
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_civ_eco;
+					technology_category rom_roman_civ_phi;
+					technology_category rom_roman_eng_con; 
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pel_athenai_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_6_primary_heading;
+			description	mission_text_text_objective_pel_athenai_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 14;			
+			}
+			payload
+			{
+				money 80000;
+				issue_mission objective_pel_athenai_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_6_1_heading;
+				description mission_text_text_objective_pel_athenai_6_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pel_hellespontos_byzantion;
+				}
+				payload
+				{
+					money 35000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_6_2_heading;
+				description mission_text_text_objective_pel_athenai_6_2_description;
+				objective	
+				{
+					type INCOME_AT_LEAST_X;		
+					income 15000;
+				}
+				payload
+				{
+					money 50000;
+				}
+			}
+			
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_pel_athenai_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_7_primary_heading;
+			description	mission_text_text_objective_pel_athenai_7_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;
+				total 4;	
+			}
+			payload
+			{
+				money 100000;
+				issue_mission objective_pel_athenai_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_7_1_heading;
+				description mission_text_text_objective_pel_athenai_7_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pel_mysia_pergamon;
+				}
+				payload
+				{
+					money 42500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_7_2_heading;
+				description mission_text_text_objective_pel_athenai_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 180;
+				}
+				payload
+				{
+					money 55000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_pel_athenai_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_athenai_8_primary_heading;
+			description	mission_text_text_objective_pel_athenai_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 16;
+			}
+			payload
+			{
+				money 125000;
+				issue_mission objective_pel_athenai_9_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_8_1_heading;
+				description mission_text_text_objective_pel_athenai_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province pel_krete;
+					province pel_dodekanisa;
+					province pel_aigian;
+				}
+				payload
+				{
+					money 60000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_athenai_8_2_heading;
+				description mission_text_text_objective_pel_athenai_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_port_large_military_4;
+					faction pel_athenai;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+	
+	
+	//************** SPARTA ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pel_sparta_1_primary;	// First chapter-based mission for pel_sparta
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pel_sparta_1_primary_heading;
+			description mission_text_text_objective_pel_sparta_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;					
+			}
+			payload
+			{
+				money 12500;
+				issue_mission objective_pel_sparta_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_sparta_1_1_heading;
+				description 	mission_text_text_objective_pel_sparta_1_1_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;
+					total 1;
+					region pel_argolis_argos;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_sparta_1_2_heading;
+				description 	mission_text_text_objective_pel_sparta_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_military_main_heavy_3; 
+					faction pel_sparta;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_pel_sparta_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_2_primary_heading;
+			description mission_text_text_objective_pel_sparta_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;				
+			}
+			payload
+			{
+				money 25000;
+				issue_mission objective_pel_sparta_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_pel_sparta_2_1_heading;
+				description	mission_text_text_objective_pel_sparta_2_1_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 10;
+					mercenary;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_pel_sparta_2_2_heading;
+				description	mission_text_text_objective_pel_sparta_2_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pel_military_army_military_settlement;
+					
+				}
+				payload
+				{
+					money 12500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pel_sparta_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_3_primary_heading;
+			description	mission_text_text_objective_pel_sparta_3_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 1;			
+			}
+			payload
+			{
+				money 37500;
+				issue_mission objective_pel_sparta_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pel_sparta_3_1_heading;
+				description mission_text_text_objective_pel_sparta_3_1_description;
+				objective
+				{
+					type MAINTAIN_N_CLIENT_STATES;
+					total 1;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pel_sparta_3_2_heading; 
+				description mission_text_text_objective_pel_sparta_3_2_description;
+				objective
+				{
+					type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province pel_krete;
+				}
+				payload
+				{
+					money 15000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pel_sparta_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_4_primary_heading;
+			description	mission_text_text_objective_pel_sparta_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 7;			
+			}
+			payload
+			{
+				money 50000;
+				issue_mission objective_pel_sparta_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_4_1_heading;
+				description mission_text_text_objective_pel_sparta_4_1_description;
+				objective	
+				{
+					type OWN_N_REGIONS_INCLUDING;
+					total 3;
+					region pel_attike_athenai;
+					region pel_euboia_kalkis;
+					region pel_attike_naxos;
+				}
+				payload
+				{
+					money 30000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_4_2_heading;
+				description mission_text_text_objective_pel_sparta_4_2_description;
+				objective	
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;	
+					total 4;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pel_sparta_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_5_primary_heading;
+			description	mission_text_text_objective_pel_sparta_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;				
+			}
+			payload
+			{
+				money 65000;
+				issue_mission objective_pel_sparta_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_5_1_heading;
+				description mission_text_text_objective_pel_sparta_5_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pel_epeiros_elaea;
+				}	
+				payload
+				{
+					money 32500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_5_2_heading;
+				description mission_text_text_objective_pel_sparta_5_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_military_techs;
+					total 15;
+					technology_category rom_roman_mil_man;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie;
+				}
+				payload
+				{
+					money 32500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pel_sparta_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_6_primary_heading;
+			description	mission_text_text_objective_pel_sparta_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 14;			
+			}
+			payload
+			{
+				money 80000;
+				issue_mission objective_pel_sparta_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_6_1_heading;
+				description mission_text_text_objective_pel_sparta_6_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;		
+					total 1;
+					region pel_hellespontos_byzantion;
+				}
+				payload
+				{
+					money 35000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_6_2_heading;
+				description mission_text_text_objective_pel_sparta_6_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 180;
+				}
+				payload
+				{
+					money 50000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_pel_sparta_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_7_primary_heading;
+			description	mission_text_text_objective_pel_sparta_7_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 4;	
+			}
+			payload
+			{
+				money 100000;
+				issue_mission objective_pel_sparta_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_7_1_heading;
+				description mission_text_text_objective_pel_sparta_7_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pel_mysia_pergamon;	
+				}
+				payload
+				{
+					money 52500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_7_2_heading;
+				description mission_text_text_objective_pel_sparta_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 180;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_pel_sparta_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_sparta_8_primary_heading;
+			description	mission_text_text_objective_pel_sparta_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 16;
+			}
+			payload
+			{
+				money 125000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_8_1_heading;
+				description mission_text_text_objective_pel_sparta_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province pel_krete;
+					province pel_dodekanisa;
+					province pel_aigian;
+				}
+				payload
+				{
+					money 60000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_sparta_8_2_heading;
+				description mission_text_text_objective_pel_sparta_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_military_main_heavy_4;
+					faction pel_sparta;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+	//************** BOIOTIA ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pel_boiotia_1_primary;	// First chapter-based mission for pel_boiotia
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pel_boiotia_1_primary_heading;
+			description mission_text_text_objective_pel_boiotia_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;					
+			}
+			payload
+			{
+				money 12500;
+				issue_mission objective_pel_boiotia_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_boiotia_1_1_heading;
+				description 	mission_text_text_objective_pel_boiotia_1_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pel_euboia_kalkis;
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_boiotia_1_2_heading;
+				description 	mission_text_text_objective_pel_boiotia_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level pel_religious_2;
+					faction pel_boiotia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_pel_boiotia_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_2_primary_heading;
+			description mission_text_text_objective_pel_boiotia_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;				
+			}
+			payload
+			{
+				money 25000;
+				issue_mission objective_pel_boiotia_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_pel_boiotia_2_1_heading;
+				description	mission_text_text_objective_pel_boiotia_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pel_civics_mathematics_geometry;
+				}
+				payload
+				{
+					money 12500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_pel_boiotia_2_2_heading;
+				description	mission_text_text_objective_pel_boiotia_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 10;
+					unit Gre_Hoplites;
+					unit Gre_Pursuit_Hemolia;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pel_boiotia_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_3_primary_heading;
+			description	mission_text_text_objective_pel_boiotia_3_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 1;			
+			}
+			payload
+			{
+				money 37500;
+				issue_mission objective_pel_boiotia_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pel_boiotia_3_1_heading;
+				description mission_text_text_objective_pel_boiotia_3_1_description;
+				objective
+				{
+					type MAINTAIN_N_CLIENT_STATES;
+					total 1;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pel_boiotia_3_2_heading; 
+				description mission_text_text_objective_pel_boiotia_3_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province pel_thessaly;
+				}
+				payload
+				{
+					money 15000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pel_boiotia_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_4_primary_heading;
+			description	mission_text_text_objective_pel_boiotia_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 7;			
+			}
+			payload
+			{
+				money 50000;
+				issue_mission objective_pel_boiotia_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_4_1_heading;
+				description mission_text_text_objective_pel_boiotia_4_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 3;
+					region pel_attike_athenai;
+					region pel_aitolia_thermon;
+					region pel_kalkidike_torone;
+				}
+				payload
+				{
+					money 30000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_4_2_heading;
+				description mission_text_text_objective_pel_boiotia_4_2_description;
+				objective	
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pel_boiotia_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_5_primary_heading;
+			description	mission_text_text_objective_pel_boiotia_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;				
+			}
+			payload
+			{
+				money 65000;
+				issue_mission objective_pel_boiotia_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_5_1_heading;
+				description mission_text_text_objective_pel_boiotia_5_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pel_aigian_mytilene;
+				}
+				payload
+				{
+					money 32500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_5_2_heading;
+				description mission_text_text_objective_pel_boiotia_5_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x;
+					total 10;
+					technology_category rom_roman_mil_man;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie;
+					technology_category rom_roman_civ_eco;
+					technology_category rom_roman_civ_phi;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_eng_con;
+				}
+				payload
+				{
+					money 32500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pel_boiotia_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_6_primary_heading;
+			description	mission_text_text_objective_pel_boiotia_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 14;			
+			}
+			payload
+			{
+				money 80000;
+				issue_mission objective_pel_boiotia_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_6_1_heading;
+				description mission_text_text_objective_pel_boiotia_6_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;		
+					total 1;
+					region pel_mysia_pergamon;
+				}
+				payload
+				{
+					money 50000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_6_2_heading;
+				description mission_text_text_objective_pel_boiotia_6_2_description;
+				objective
+				{
+					type INCOME_AT_LEAST_X;
+					income 15000;
+				}
+				payload
+				{
+					money 35000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_pel_boiotia_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_7_primary_heading;
+			description	mission_text_text_objective_pel_boiotia_7_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 4;	
+			}
+			payload
+			{
+				money 100000;
+				issue_mission objective_pel_boiotia_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_7_1_heading;
+				description mission_text_text_objective_pel_boiotia_7_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology pel_military_support_peltast_trainning;
+				}
+				payload
+				{
+					money 52500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_7_2_heading;
+				description mission_text_text_objective_pel_boiotia_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 180;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_pel_boiotia_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_boiotia_8_primary_heading;
+			description	mission_text_text_objective_pel_boiotia_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 16;
+			}
+			payload
+			{
+				money 125000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_8_1_heading;
+				description mission_text_text_objective_pel_boiotia_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province pel_krete;
+					province pel_dodekanisa;
+					province pel_aigian;
+				}
+				payload
+				{
+					money 60000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_boiotia_8_2_heading;
+				description mission_text_text_objective_pel_boiotia_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_temple_Zeus_4;
+					faction pel_boiotia;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+	//************** KORINTHOS ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pel_korinthos_1_primary;	// First chapter-based mission for pel_korinthos
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pel_korinthos_1_primary_heading;
+			description mission_text_text_objective_pel_korinthos_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;	
+			}
+			payload
+			{
+				money 12500;
+				issue_mission objective_pel_korinthos_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_korinthos_1_1_heading;
+				description 	mission_text_text_objective_pel_korinthos_1_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pel_epeiros_korkyra;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pel_korinthos_1_2_heading;
+				description 	mission_text_text_objective_pel_korinthos_1_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pel_civics_aesthetics_greek_classical_art; 
+				}
+				payload
+				{
+					money 7500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_pel_korinthos_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_2_primary_heading;
+			description mission_text_text_objective_pel_korinthos_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;				
+			}
+			payload
+			{
+				money 25000;
+				issue_mission objective_pel_korinthos_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_pel_korinthos_2_1_heading;
+				description	mission_text_text_objective_pel_korinthos_2_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_port_large_military_2;
+					faction pel_korinthos;
+				}
+				payload
+				{
+					money 12500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_pel_korinthos_2_2_heading;
+				description	mission_text_text_objective_pel_korinthos_2_2_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 2;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pel_korinthos_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_3_primary_heading;
+			description	mission_text_text_objective_pel_korinthos_3_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 1;			
+			}
+			payload
+			{
+				money 37500;
+				issue_mission objective_pel_korinthos_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pel_korinthos_3_1_heading;
+				description mission_text_text_objective_pel_korinthos_3_1_description;
+				objective
+				{
+					type MAINTAIN_N_CLIENT_STATES;
+					total 1;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pel_korinthos_3_2_heading; 
+				description mission_text_text_objective_pel_korinthos_3_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province pel_ambrakia;
+				}
+				payload
+				{
+					money 15000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pel_korinthos_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_4_primary_heading;
+			description	mission_text_text_objective_pel_korinthos_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 7;			
+			}
+			payload
+			{
+				money 50000;
+				issue_mission objective_pel_korinthos_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_4_1_heading;
+				description mission_text_text_objective_pel_korinthos_4_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 3;
+					region pel_aitolia_thermon;
+					region pel_attike_athenai;
+					region pel_krete_knossos;
+				}
+				payload
+				{
+					money 30000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_4_2_heading;
+				description mission_text_text_objective_pel_korinthos_4_2_description;
+				objective	
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 25000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pel_korinthos_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_5_primary_heading;
+			description	mission_text_text_objective_pel_korinthos_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;				
+			}
+			payload
+			{
+				money 65000;
+				issue_mission objective_pel_korinthos_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_5_1_heading;
+				description mission_text_text_objective_pel_korinthos_5_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pel_dodekanisa_rodos;
+				}
+				payload
+				{
+					money 35000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_5_2_heading;
+				description mission_text_text_objective_pel_korinthos_5_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x;
+					total 10;
+					technology_category rom_roman_civ_eco;
+					technology_category rom_roman_civ_phi;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_eng_con;
+				}
+				payload
+				{
+					money 30000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pel_korinthos_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_6_primary_heading;
+			description	mission_text_text_objective_pel_korinthos_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 14;			
+			}
+			payload
+			{
+				money 80000;
+				issue_mission objective_pel_korinthos_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_6_1_heading;
+				description mission_text_text_objective_pel_korinthos_6_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;		
+					total 1;
+					region pel_hellespontos_byzantion;
+				}
+				payload
+				{
+					money 50000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_6_2_heading;
+				description mission_text_text_objective_pel_korinthos_6_2_description;
+				objective
+				{
+					type INCOME_AT_LEAST_X;	
+					income 14000;
+				}
+				payload
+				{
+					money 35000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_pel_korinthos_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_7_primary_heading;
+			description	mission_text_text_objective_pel_korinthos_7_primary_description;
+			objective
+			{
+				type FULLY_OWN_N_SEA_REGIONS;	
+				total 3;	
+			}
+			payload
+			{
+				money 100000;
+				issue_mission objective_pel_korinthos_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_7_1_heading;
+				description mission_text_text_objective_pel_korinthos_7_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pel_mysia_pergamon;				
+				}
+				payload
+				{
+					money 52500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_7_2_heading;
+				description mission_text_text_objective_pel_korinthos_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 180;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_pel_korinthos_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pel_korinthos_8_primary_heading;
+			description	mission_text_text_objective_pel_korinthos_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 16;
+			}
+			payload
+			{
+				money 125000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_8_1_heading;
+				description mission_text_text_objective_pel_korinthos_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province pel_krete;
+					province pel_dodekanisa;
+					province pel_aigian;
+				}
+				payload
+				{
+					money 60000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pel_korinthos_8_2_heading;
+				description mission_text_text_objective_pel_korinthos_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_agora_public_4;
+					faction pel_korinthos;
+				}
+				payload
+				{
+					money 45000;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,4350 @@
+scripted_missions
+{
+	//************** OCTAVIAN ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_octavian_1_primary;	// First chapter-based mission for emp_octavian
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_octavian_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_octavian_1_1_heading;
+				description 	mission_text_text_objective_emp_octavian_1_1_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction emp_pompey;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_octavian_1_2_heading;
+				description 	mission_text_text_objective_emp_octavian_1_2_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region emp_hercynia_bergium;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_octavian_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 110;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_octavian_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_octavian_2_1_heading;
+				description	mission_text_text_objective_emp_octavian_2_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_military_management_remuneration_reforms;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_octavian_2_2_heading;
+				description	mission_text_text_objective_emp_octavian_2_2_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region emp_tarraconensis_aracillum;
+					
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_octavian_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 38;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_octavian_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_octavian_3_1_heading;
+				description mission_text_text_objective_emp_octavian_3_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_roman_civil_economy_legal_institutions;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_octavian_3_2_heading; 
+				description mission_text_text_objective_emp_octavian_3_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_raetia_et_noricum;
+					province emp_hercynia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_octavian_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 11;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_octavian_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_4_1_heading;
+				description mission_text_text_objective_emp_octavian_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_corsica_et_sardinia;
+					province emp_sicily;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_4_2_heading;
+				description mission_text_text_objective_emp_octavian_4_2_description;
+				objective	
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit Rom_Assault_Quadreme_Late;
+					unit Rom_Assault_Quinquereme_Late;
+					unit Rom_Assault_Trireme_Late;
+					unit Rom_Assault_Hexareme_Late;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_octavian_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 20;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_octavian_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_5_1_heading;
+				description mission_text_text_objective_emp_octavian_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_africa;
+					province emp_tarraconensis; 
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_5_2_heading;
+				description mission_text_text_objective_emp_octavian_5_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_roman_engineering_construction_moulded_architecture; 
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_octavian_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 18;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_octavian_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_6_1_heading;
+				description mission_text_text_objective_emp_octavian_6_1_description;
+				objective	
+				{
+					type INCOME_AT_LEAST_X;		
+					income 30000;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_6_2_heading;
+				description mission_text_text_objective_emp_octavian_6_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province emp_hispania;
+					province emp_baetica;
+					province emp_lusitania;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_octavian_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 180;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_octavian_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_7_1_heading;
+				description mission_text_text_objective_emp_octavian_7_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_ROMAN_temple_Jupiter_4; 
+					faction emp_octavian;
+				}
+				payload
+				{
+					money 8500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_7_2_heading;
+				description mission_text_text_objective_emp_octavian_7_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;			
+					province emp_illyricum;
+					province emp_macedonia;
+				}
+				payload
+				{
+					money 11000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_octavian_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 30;
+			}
+			payload
+			{
+				money 25000;
+				issue_mission objective_emp_octavian_9_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_8_1_heading;
+				description mission_text_text_objective_emp_octavian_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_aegyptos;
+					province emp_libya;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_8_2_heading;
+				description mission_text_text_objective_emp_octavian_8_2_description;
+				objective	
+				{
+					type MAKE_TRADE_AGREEMENT;
+					faction emp_parthia;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 9;						
+		key objective_emp_octavian_9_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_9_primary_heading;
+			description	mission_text_text_objective_9_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;	
+			}
+			payload		
+			{
+				money 30000;	
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_9_1_heading;
+				description mission_text_text_objective_emp_octavian_9_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 4;
+					province emp_achaia;
+					province emp_asia;
+					province emp_syria;
+					province emp_judea;	
+				}
+				payload
+				{
+					money 15000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_octavian_9_2_heading;
+				description mission_text_text_objective_emp_octavian_9_2_description;
+				objective	
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_civil_techs;
+					total 20;			
+					technology_category rom_roman_civ_eco;
+					technology_category rom_roman_civ_phi;
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_eng_con;
+				}
+				payload
+				{
+					money 15000;
+				}
+			}
+		}
+	}
+	
+	
+	//************** EGYPT ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_egypt_1_primary;	// First chapter-based mission for emp_egypt
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 8;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_egypt_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_egypt_1_1_heading;
+				description 	mission_text_text_objective_emp_egypt_1_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction emp_nasamones;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_egypt_1_2_heading;
+				description 	mission_text_text_objective_emp_egypt_1_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_egypt_civil_philosophy_dynastic_list; 
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_egypt_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_egypt_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_egypt_2_1_heading;
+				description	mission_text_text_objective_emp_egypt_2_1_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 10;
+					mercenary;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_egypt_2_2_heading;
+				description	mission_text_text_objective_emp_egypt_2_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_aethiopia;
+					
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_egypt_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 15;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_egypt_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_egypt_3_1_heading;
+				description mission_text_text_objective_emp_egypt_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_arabia_felix;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_egypt_3_2_heading; 
+				description mission_text_text_objective_emp_egypt_3_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_HELLENIC_temple_ptolemaic_Horus_3;
+					faction emp_egypt;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_egypt_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 10;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_egypt_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_4_1_heading;
+				description mission_text_text_objective_emp_egypt_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_africa;
+					province emp_phazania;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_4_2_heading;
+				description mission_text_text_objective_emp_egypt_4_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_HELLENIC_outskirts_minor_grain_3;
+					faction emp_egypt;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_egypt_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 8;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_egypt_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_5_1_heading;
+				description mission_text_text_objective_emp_egypt_5_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 4;
+					region emp_mesopotamia_charax;
+					region emp_arabia_magna_adummatu;
+					region emp_arabia_magna_gerrha;
+					region emp_arabia_magna_yathrib;
+				}	
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_5_2_heading;
+				description mission_text_text_objective_emp_egypt_5_2_description;
+				objective
+				{
+					type INCOME_AT_LEAST_X;	
+					income 20000; 
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_egypt_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 15;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_egypt_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_6_1_heading;
+				description mission_text_text_objective_emp_egypt_6_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 2;
+					province emp_persis;
+					province emp_carmania;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_6_2_heading;
+				description mission_text_text_objective_emp_egypt_6_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_egypt_civil_economy_annual_survey;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_egypt_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 110;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_egypt_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_7_1_heading;
+				description mission_text_text_objective_emp_egypt_7_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_sicily;	
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_7_2_heading;
+				description mission_text_text_objective_emp_egypt_7_2_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;	
+					total 35;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_egypt_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 20;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_8_1_heading;
+				description mission_text_text_objective_emp_egypt_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 6;
+					province emp_baetica;
+					province emp_mauretania;
+					province emp_numidia;
+					province emp_africa;
+					province emp_phazania;
+					province emp_aethiopia;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_egypt_8_2_heading;
+				description mission_text_text_objective_emp_egypt_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_agora_research_5;
+					faction emp_egypt;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** DACIA ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_dacia_1_primary;	// First chapter-based mission for emp_dacia
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_dacia_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_dacia_1_1_heading;
+				description 	mission_text_text_objective_emp_dacia_1_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_pannonia;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_dacia_1_2_heading;
+				description 	mission_text_text_objective_emp_dacia_1_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_german_engineering_construction_raised_site; 
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_dacia_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_dacia_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_dacia_2_1_heading;
+				description	mission_text_text_objective_emp_dacia_2_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region emp_hercynia_istros;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_dacia_2_2_heading;
+				description	mission_text_text_objective_emp_dacia_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 4;
+					unit Dac_Falxmen;
+					
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_dacia_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 16;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_dacia_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_dacia_3_1_heading;
+				description mission_text_text_objective_emp_dacia_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_sarmatia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_dacia_3_2_heading; 
+				description mission_text_text_objective_emp_dacia_3_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_BARBARIAN_religious_dacian_gebelizis_3;
+					faction emp_dacia;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_dacia_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 10;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_dacia_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_4_1_heading;
+				description mission_text_text_objective_emp_dacia_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_hercynia;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_4_2_heading;
+				description mission_text_text_objective_emp_dacia_4_2_description;
+				objective	
+				{
+					type MAKE_TRADE_AGREEMENT;
+					faction emp_pontus;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_dacia_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 8;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_dacia_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_5_1_heading;
+				description mission_text_text_objective_emp_dacia_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_lugii;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_5_2_heading;
+				description mission_text_text_objective_emp_dacia_5_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_german_civil_tribal_council_multilingual;
+				}
+				payload
+				{
+					money 6500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_dacia_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 18;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_dacia_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_6_1_heading;
+				description mission_text_text_objective_emp_dacia_6_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;		
+					total 3;
+					region emp_thracia_antheia;
+					region emp_thracia_odessos;
+					region emp_thracia_pulpudeva;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_6_2_heading;
+				description mission_text_text_objective_emp_dacia_6_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_gaul_military_war_exercises_warrior_aristocracy;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_dacia_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 110;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_dacia_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_7_1_heading;
+				description mission_text_text_objective_emp_dacia_7_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_raetia_et_noricum;	
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_7_2_heading;
+				description mission_text_text_objective_emp_dacia_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 8;
+					unit Dac_Heavy_Phalanx;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_dacia_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 20;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_8_1_heading;
+				description mission_text_text_objective_emp_dacia_8_1_description;
+				objective	
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+					region emp_latium_roma;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_dacia_8_2_heading;
+				description mission_text_text_objective_emp_dacia_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_BARBARIAN_commons_administration_4;
+					faction emp_dacia;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** PARTHIA ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_parthia_1_primary;	// First chapter-based mission for emp_parthia
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 12;	
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_parthia_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_parthia_1_1_heading;
+				description 	mission_text_text_objective_emp_parthia_1_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction emp_armenia;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_parthia_1_2_heading;
+				description 	mission_text_text_objective_emp_parthia_1_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_chorasmia; 
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_parthia_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 110;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_parthia_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_parthia_2_1_heading;
+				description	mission_text_text_objective_emp_parthia_2_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_syria;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_parthia_2_2_heading;
+				description	mission_text_text_objective_emp_parthia_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 6;
+					unit Eas_Parthian_Horse_Archers;
+					
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_parthia_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 46;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_parthia_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_parthia_3_1_heading;
+				description mission_text_text_objective_emp_parthia_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_judea;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_parthia_3_2_heading; 
+				description mission_text_text_objective_emp_parthia_3_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_EASTERN_city_minor_silk_4;
+					faction emp_parthia;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_parthia_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 10;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_parthia_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_4_1_heading;
+				description mission_text_text_objective_emp_parthia_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_galatia_et_cappadocia;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_4_2_heading;
+				description mission_text_text_objective_emp_parthia_4_2_description;
+				objective	
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_eastern_military_management_military_method;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_parthia_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 24;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_parthia_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_5_1_heading;
+				description mission_text_text_objective_emp_parthia_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_asia;
+					province emp_bithynia_et_pontus;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_5_2_heading;
+				description mission_text_text_objective_emp_parthia_5_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_eastern_civil_economy_fixed_tarrifs;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_parthia_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 16;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_parthia_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_6_1_heading;
+				description mission_text_text_objective_emp_parthia_6_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 2;
+					province emp_aegyptos;
+					province emp_nabataea;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_6_2_heading;
+				description mission_text_text_objective_emp_parthia_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level east_religious_fire_4;
+					faction emp_parthia;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_parthia_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 200;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_parthia_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_7_1_heading;
+				description mission_text_text_objective_emp_parthia_7_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_caucasia;
+					province emp_scythia;					
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_7_2_heading;
+				description mission_text_text_objective_emp_parthia_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 12;
+					unit Eas_Royal_Cataphracts; 
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_parthia_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 35;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_8_1_heading;
+				description mission_text_text_objective_emp_parthia_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_macedonia;
+					province emp_achaia;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_parthia_8_2_heading;
+				description mission_text_text_objective_emp_parthia_8_2_description;
+				objective	
+				{
+					type INCOME_AT_LEAST_X;
+					income 75000;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** ICENI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_iceni_1_primary;	// First chapter-based mission for emp_iceni
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 1;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_iceni_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_iceni_1_1_heading;
+				description 	mission_text_text_objective_emp_iceni_1_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction emp_corieltauvi;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_iceni_1_2_heading;
+				description 	mission_text_text_objective_emp_iceni_1_2_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;	
+					faction emp_dumonii;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_iceni_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 40;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_iceni_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_iceni_2_1_heading;
+				description	mission_text_text_objective_emp_iceni_2_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_pretanic_isles;
+					province emp_britannia;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_iceni_2_2_heading;
+				description	mission_text_text_objective_emp_iceni_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 4;
+					unit Bri_Chariots;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_iceni_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 11;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_iceni_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_iceni_3_1_heading;
+				description mission_text_text_objective_emp_iceni_3_1_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;
+					region emp_sea_oceanus_germanicus;
+					region emp_sea_mare_suevicum;
+				}					
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_iceni_3_2_heading; 
+				description mission_text_text_objective_emp_iceni_3_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_briton_engineering_siege_ammunition_stores;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_iceni_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 11;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_iceni_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_4_1_heading;
+				description mission_text_text_objective_emp_iceni_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_magna_germania;
+					province emp_suebia;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_4_2_heading;
+				description mission_text_text_objective_emp_iceni_4_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_BARBARIAN_commons_trade_3;
+					faction emp_iceni;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_iceni_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 8;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_iceni_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_5_1_heading;
+				description mission_text_text_objective_emp_iceni_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 3;
+					province emp_germania_minor;
+					province emp_belgica;
+					province emp_gallia;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_5_2_heading;
+				description mission_text_text_objective_emp_iceni_5_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_briton_civil_tribal_council_intensified_production;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_iceni_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 20;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_iceni_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_6_1_heading;
+				description mission_text_text_objective_emp_iceni_6_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 2;
+					province emp_aquitania;
+					province emp_raetia_et_noricum;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_6_2_heading;
+				description mission_text_text_objective_emp_iceni_6_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_BARBARIAN_artisans_major_gold_4;
+					faction emp_iceni;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_iceni_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_iceni_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_7_1_heading;
+				description mission_text_text_objective_emp_iceni_7_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region emp_latium_roma;				
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_7_2_heading;
+				description mission_text_text_objective_emp_iceni_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 8;
+					unit Bri_Drwdae; 
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_iceni_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 16;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_8_1_heading;
+				description mission_text_text_objective_emp_iceni_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_tarraconensis;
+					province emp_narbonensis;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_iceni_8_2_heading;
+				description mission_text_text_objective_emp_iceni_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level barb_religious_briton_andraste_5;
+					faction emp_iceni;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** ARMENIA ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_armenia_1_primary;	// First chapter-based mission for emp_armenia
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 2;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_armenia_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_armenia_1_1_heading;
+				description 	mission_text_text_objective_emp_armenia_1_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction emp_media_atropatene;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_armenia_1_2_heading;
+				description 	mission_text_text_objective_emp_armenia_1_2_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;	
+					faction emp_pontus;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_armenia_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_armenia_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_armenia_2_1_heading;
+				description	mission_text_text_objective_emp_armenia_2_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 2;
+					region emp_caucasia_gabata;
+					region emp_caucasia_mtskheta;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_armenia_2_2_heading;
+				description	mission_text_text_objective_emp_armenia_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit Arm_Cataphracts;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_armenia_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 20;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_armenia_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_armenia_3_1_heading;
+				description mission_text_text_objective_emp_armenia_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_scythia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_armenia_3_2_heading; 
+				description mission_text_text_objective_emp_armenia_3_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_EASTERN_city_slot_governor_4;
+					faction emp_armenia;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_armenia_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 9;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_armenia_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_4_1_heading;
+				description mission_text_text_objective_emp_armenia_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_chorasmia;
+					province emp_media_magna;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_4_2_heading;
+				description mission_text_text_objective_emp_armenia_4_2_description;
+				objective	
+				{	
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 4;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_armenia_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_armenia_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_5_1_heading;
+				description mission_text_text_objective_emp_armenia_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_persis;
+					province emp_parthia;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_5_2_heading;
+				description mission_text_text_objective_emp_armenia_5_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_eastern_civil_economy_fixed_tarrifs;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_armenia_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 14;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_armenia_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_6_1_heading;
+				description mission_text_text_objective_emp_armenia_6_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 3;
+					province emp_carmania;
+					province emp_aria;
+					province emp_transoxania;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_6_2_heading;
+				description mission_text_text_objective_emp_armenia_6_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_military_techs;
+					total 9;			
+					technology_category rom_roman_mil_man;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie; 
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_armenia_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 110;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_armenia_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_7_1_heading;
+				description mission_text_text_objective_emp_armenia_7_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_syria;
+					province emp_judea;
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_7_2_heading;
+				description mission_text_text_objective_emp_armenia_7_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level east_city_centre_library_4;
+					faction emp_armenia;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_armenia_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 20;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_8_1_heading;
+				description mission_text_text_objective_emp_armenia_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_galatia_et_cappadocia;
+					province emp_asia;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_armenia_8_2_heading;
+				description mission_text_text_objective_emp_armenia_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level east_religious_royal_4;
+					faction emp_armenia;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** Lepidus ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_lepidus_1_primary;	// First chapter-based mission for emp_lepidus
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 8;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_lepidus_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_lepidus_1_1_heading;
+				description 	mission_text_text_objective_emp_lepidus_1_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region emp_tarraconensis_aracillum;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_lepidus_1_2_heading;
+				description 	mission_text_text_objective_emp_lepidus_1_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_mauretania;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_lepidus_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_lepidus_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_lepidus_2_1_heading;
+				description	mission_text_text_objective_emp_lepidus_2_1_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 14;
+					unit Rom_Legionary_Cohort;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_lepidus_2_2_heading;
+				description	mission_text_text_objective_emp_lepidus_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rome_agriculture_farm_3;
+					faction emp_lepidus;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_lepidus_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 27;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_lepidus_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_lepidus_3_1_heading;
+				description mission_text_text_objective_emp_lepidus_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_sicily;
+					province emp_corsica_et_sardinia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_lepidus_3_2_heading; 
+				description mission_text_text_objective_emp_lepidus_3_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_economy_legal_institutions;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_lepidus_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 7;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_lepidus_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_4_1_heading;
+				description mission_text_text_objective_emp_lepidus_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_libya;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_4_2_heading;
+				description mission_text_text_objective_emp_lepidus_4_2_description;
+				objective	
+				{	
+					type MAINTAIN_N_CLIENT_STATES;
+					total 3;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_lepidus_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 17;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_lepidus_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_5_1_heading;
+				description mission_text_text_objective_emp_lepidus_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_aegyptos;
+					province emp_aethiopia;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_5_2_heading;
+				description mission_text_text_objective_emp_lepidus_5_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_ROMAN_city_minor_iron_fort_4;
+					faction emp_lepidus;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_lepidus_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 15;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_lepidus_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_6_1_heading;
+				description mission_text_text_objective_emp_lepidus_6_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 2;
+					province emp_narbonensis;
+					province emp_aquitania;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_6_2_heading;
+				description mission_text_text_objective_emp_lepidus_6_2_description;
+				objective
+				{
+					type OWN_AT_LEAST_ONE_SOURCE_OF_EACH_RESOURCE;	
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_lepidus_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 190;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_lepidus_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_7_1_heading;
+				description mission_text_text_objective_emp_lepidus_7_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 3;
+					province emp_italia;
+					province emp_latium;
+					province emp_cisalpina;
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_7_2_heading;
+				description mission_text_text_objective_emp_lepidus_7_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_philosophy_mysticism;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_lepidus_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 28;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_8_1_heading;
+				description mission_text_text_objective_emp_lepidus_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province emp_macedonia;
+					province emp_achaia;
+					province emp_illyricum;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_lepidus_8_2_heading;
+				description mission_text_text_objective_emp_lepidus_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_ROMAN_temple_Jupiter_4;
+					faction emp_lepidus;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** MARCOMANNI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_marcomanni_1_primary;	// First chapter-based mission for emp_marcomanni
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 1;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_marcomanni_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_marcomanni_1_1_heading;
+				description 	mission_text_text_objective_emp_marcomanni_1_1_description;
+				objective
+				{
+				type SUBJUGATE_FACTIONS;
+				total 1;
+				faction emp_vindelici;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_marcomanni_1_2_heading;
+				description 	mission_text_text_objective_emp_marcomanni_1_2_description;
+				objective
+				{
+				type BE_AT_WAR_WITH_FACTION;
+				faction emp_boii;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_marcomanni_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 40;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_marcomanni_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_marcomanni_2_1_heading;
+				description	mission_text_text_objective_emp_marcomanni_2_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 2;
+					region emp_raetia_et_noricum_koria;
+					region emp_raetia_et_noricum_noreia;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_marcomanni_2_2_heading;
+				description	mission_text_text_objective_emp_marcomanni_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 5;
+					unit Ger_Bloodsworn;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_marcomanni_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 11;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_marcomanni_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_marcomanni_3_1_heading;
+				description mission_text_text_objective_emp_marcomanni_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_magna_germania;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_marcomanni_3_2_heading; 
+				description mission_text_text_objective_emp_marcomanni_3_2_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 3;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_marcomanni_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 13;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_marcomanni_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_4_1_heading;
+				description mission_text_text_objective_emp_marcomanni_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_suebia;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_4_2_heading;
+				description mission_text_text_objective_emp_marcomanni_4_2_description;
+				objective	
+				{	
+					type CONSTRUCT_BUILDING;	
+					building_level rom_BARBARIAN_religious_germanic_Wodanaz_3;
+					faction emp_marcomanni;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_marcomanni_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 6;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_marcomanni_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_5_1_heading;
+				description mission_text_text_objective_emp_marcomanni_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_lugii;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_5_2_heading;
+				description mission_text_text_objective_emp_marcomanni_5_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_BARBARIAN_enclosure_stables_3;
+					faction emp_marcomanni;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_marcomanni_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 18;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_marcomanni_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_6_1_heading;
+				description mission_text_text_objective_emp_marcomanni_6_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;		
+					total 3;
+					province emp_germania_minor;
+					province emp_belgica;
+					province emp_gallia;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_6_2_heading;
+				description mission_text_text_objective_emp_marcomanni_6_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_german_military_war_exercises_battle_fury;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_marcomanni_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 100;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_marcomanni_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_7_1_heading;
+				description mission_text_text_objective_emp_marcomanni_7_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_aquitania;
+					province emp_narbonensis;
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_7_2_heading;
+				description mission_text_text_objective_emp_marcomanni_7_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 10;
+					unit Ger_Noble_Riders;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_marcomanni_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 18;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_8_1_heading;
+				description mission_text_text_objective_emp_marcomanni_8_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region emp_latium_roma;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_marcomanni_8_2_heading;
+				description mission_text_text_objective_emp_marcomanni_8_2_description;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_BARBARIAN_religious_germanic_Teiwaz_4;
+					faction emp_marcomanni;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** ANTONY ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_antony_1_primary1;	// First chapter-based mission for emp_antony
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading_alex;
+			description mission_text_text_objective_1_primary_description_alex;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_thracia;
+				
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_antony_2_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_antony_1_1_heading_alex;
+				description 	mission_text_text_objective_emp_antony_1_1_description_alex;
+				objective
+				{
+				type OWN_N_UNITS;	
+				total 25;	
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_antony_1_2_heading_alex;
+				description 	mission_text_text_objective_emp_antony_1_2_description_alex;
+				objective
+				{
+				type BE_AT_WAR_WITH_FACTION;	
+				faction emp_dacia;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_antony_2_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading_alex;
+			description mission_text_text_objective_2_primary_description_alex;
+			objective
+			{
+				type OWN_A_REGION_IN_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_asia;
+					province emp_galatia_et_cappadocia;			
+			}
+			payload
+			{
+				money 12000;
+				issue_mission objective_emp_antony_3_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_antony_2_2_heading_alex;
+				description	mission_text_text_objective_emp_antony_2_2_description_alex;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_HELLENIC_outskirts_minor_horses_MACEDON_3;
+					faction rom_macedon_alex;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_antony_3_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading_alex;
+			description	mission_text_text_objective_3_primary_description_alex;
+			objective
+			{
+				type OWN_A_REGION_IN_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_syria;
+					province emp_palmyra;			
+			}
+			payload
+			{
+				money 15000;
+				issue_mission objective_emp_antony_4_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_antony_3_1_heading_alex;
+				description mission_text_text_objective_emp_antony_3_1_description_alex;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_asia;
+					province emp_galatia_et_cappadocia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_antony_3_2_heading_alex; 
+				description mission_text_text_objective_emp_antony_3_2_description_alex;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_illyricum;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_antony_4_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading_alex;
+			description	mission_text_text_objective_4_primary_description_alex;
+			objective	
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_mesopotamia;			
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_antony_5_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_antony_4_1_heading_alex;
+				description mission_text_text_objective_emp_antony_4_1_description_alex;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_aegyptos;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_antony_4_2_heading_alex;
+				description mission_text_text_objective_emp_antony_4_2_description_alex;
+				objective	
+				{	
+					type RESEARCH_TECHNOLOGY;
+					technology rom_greek_military_management_hellenisation;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_antony_5_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading_alex;
+			description	mission_text_text_objective_5_primary_description_alex;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_persis;					
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_antony_6_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_antony_5_2_heading_alex;
+				description mission_text_text_objective_emp_antony_5_2_description_alex;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_greek_civil_economy_legal_institutions;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_antony_6_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading_alex;
+			description	mission_text_text_objective_6_primary_description_alex;
+			objective	
+			{
+				type OWN_A_REGION_IN_N_PROVINCES_INCLUDING;	
+					total 2;
+					province emp_gedrosia;
+					province emp_bactria;		
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_antony_7_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_antony_6_2_heading_alex;
+				description mission_text_text_objective_emp_antony_6_2_description_alex;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_media_magna;
+					province emp_parthia;
+				}
+				payload
+				{
+					money 10000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_antony_7_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading_alex;
+			description	mission_text_text_objective_7_primary_description_alex;
+			objective
+			{
+				type HOLD_ENTIRETY_OF_N_PROVINCES_INCLUDING;	
+					total 3;
+					province emp_bactria;
+					province emp_gedrosia;
+					province emp_aria;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_antony_8_primary1;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_antony_7_1_heading_alex;
+				description mission_text_text_objective_emp_antony_7_1_description_alex;
+				objective
+				{
+					type OWN_N_UNITS;	
+					total 200;	
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_antony_8_primary1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading_alex;
+			description	mission_text_text_objective_8_primary_description_alex;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 30;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_antony_8_2_heading_alex;
+				description mission_text_text_objective_emp_antony_8_2_description_alex;
+				objective	
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_HELLENIC_temple_temple_complex_5;
+					faction rom_macedon_alex;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	//************** POMPEY ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_emp_pompey_1_primary;	// First chapter-based mission for emp_pompey
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_1_primary_heading;
+			description mission_text_text_objective_1_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 40;				
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_emp_pompey_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_pompey_1_1_heading;
+				description 	mission_text_text_objective_emp_pompey_1_1_description;
+				objective
+				{
+				type RESEARCH_TECHNOLOGY;
+				technology rom_roman_military_navy_double_plank_construction;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_emp_pompey_1_2_heading;
+				description 	mission_text_text_objective_emp_pompey_1_2_description;
+				objective
+				{
+				type CONTROL_N_REGIONS_INCLUDING;
+				total 1;
+				region emp_mauretania_siga;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 2;						
+		key objective_emp_pompey_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_2_primary_heading;
+			description mission_text_text_objective_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;					
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_emp_pompey_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload	
+			{			
+				heading	mission_text_text_objective_emp_pompey_2_1_heading;
+				description	mission_text_text_objective_emp_pompey_2_1_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;
+					faction emp_antony; 
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload
+			{		
+				heading	mission_text_text_objective_emp_pompey_2_2_heading;
+				description	mission_text_text_objective_emp_pompey_2_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_ROMAN_temple_Neptune_3;
+					faction emp_pompey;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_emp_pompey_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_3_primary_heading;
+			description	mission_text_text_objective_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 15;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_emp_pompey_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_emp_pompey_3_1_heading;
+				description mission_text_text_objective_emp_pompey_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_africa;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_emp_pompey_3_2_heading; 
+				description mission_text_text_objective_emp_pompey_3_2_description;
+				objective
+				{
+					type CONTROL_N_PORTS_INCLUDING;
+					total 9;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_emp_pompey_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_4_primary_heading;
+			description	mission_text_text_objective_4_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 5;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_emp_pompey_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_4_1_heading;
+				description mission_text_text_objective_emp_pompey_4_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province emp_numidia;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_4_2_heading;
+				description mission_text_text_objective_emp_pompey_4_2_description;
+				objective	
+				{	
+					type OWN_N_UNITS;
+					total 5;
+                    unit Rom_Assault_Quadreme_Late;
+					unit Rom_Assault_Quinquereme_Late;
+					unit Rom_Assault_Trireme_Late;
+					unit Rom_Assault_Hexareme_Late;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_emp_pompey_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_5_primary_heading;
+			description	mission_text_text_objective_5_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 10;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_emp_pompey_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_5_1_heading;
+				description mission_text_text_objective_emp_pompey_5_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province emp_italia;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_5_2_heading;
+				description mission_text_text_objective_emp_pompey_5_2_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction emp_antony;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_emp_pompey_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_6_primary_heading;
+			description	mission_text_text_objective_6_primary_description;
+			objective	
+			{
+				type SUBJUGATE_FACTIONS;		
+				total 10;			
+			}
+			payload
+			{
+				money 16000;
+				issue_mission objective_emp_pompey_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_6_1_heading;
+				description mission_text_text_objective_emp_pompey_6_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;		
+					total 1;
+					region emp_latium_roma;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_6_2_heading;
+				description mission_text_text_objective_emp_pompey_6_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_roman_civil_agriculture_seed_selection;
+				}
+				payload
+				{
+					money 8000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_emp_pompey_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_7_primary_heading;
+			description	mission_text_text_objective_7_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 120;	
+			}
+			payload
+			{
+				money 20000;
+				issue_mission objective_emp_pompey_8_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_7_1_heading;
+				description mission_text_text_objective_emp_pompey_7_1_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;		
+					total 1;
+					region emp_achaia_sparta;
+				}
+				payload
+				{
+					money 10500;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_7_2_heading;
+				description mission_text_text_objective_emp_pompey_7_2_description;
+				objective
+				{
+					type FULLY_OWN_N_SEA_REGIONS;
+					total 4;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 8;						
+		key objective_emp_pompey_8_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_8_primary_heading;
+			description	mission_text_text_objective_8_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 20;
+			}
+			payload
+			{
+				money 25000;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_8_1_heading;
+				description mission_text_text_objective_emp_pompey_8_1_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 2;
+					province emp_aegyptos;
+					province emp_libya;
+				}
+				payload
+				{
+					money 12000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_emp_pompey_8_2_heading;
+				description mission_text_text_objective_emp_pompey_8_2_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 3;
+					province emp_cisalpina;
+					province emp_narbonensis;
+					province emp_aquitania;
+				}
+				payload
+				{
+					money 9000;
+				}
+			}
+		}
+	}
+}

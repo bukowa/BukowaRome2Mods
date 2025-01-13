@@ -1,0 +1,2489 @@
+scripted_missions
+{
+	//************** ROME ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_rome_1_primary;	// First chapter-based mission for Rome
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_rome_1_primary_heading;
+			description mission_text_text_objective_pun_rome_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 30;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_rome_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_rome_1_1_heading;
+				description 	mission_text_text_objective_pun_rome_1_1_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region pun_gallia_cisalpina_genua;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading			mission_text_text_objective_pun_rome_1_2_heading;
+				description 	mission_text_text_objective_pun_rome_1_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pun_roman_civil_diplomacy_diplomats;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_rome_1_3_heading;
+				description 	mission_text_text_objective_pun_rome_1_3_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;
+					faction pun_syracuse;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;				
+		key objective_pun_rome_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_2_primary_heading;
+			description mission_text_text_objective_pun_rome_2_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 35;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_rome_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_rome_2_1_heading;
+				description mission_text_text_objective_pun_rome_2_1_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_military_techs;
+					total 8;			
+					technology_category rom_roman_mil_man;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_rome_2_2_heading;
+				description mission_text_text_objective_pun_rome_2_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province pun_main_gallia_transalpina;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_rome_2_3_heading;
+				description mission_text_text_objective_pun_rome_2_3_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;	
+					building_level rom_ROMAN_city_minor_iron_2;
+					building_level rome_iron_weapon_2;
+					faction pun_rome;					
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_rome_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_3_primary_heading;
+			description	mission_text_text_objective_pun_rome_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 11;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_rome_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_rome_3_1_heading;
+				description mission_text_text_objective_pun_rome_3_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology pun_roman_civil_diplomacy_iberian_mission;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_rome_3_2_heading; 
+				description mission_text_text_objective_pun_rome_3_2_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction pun_volcae;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_rome_3_3_heading;
+				description mission_text_text_objective_pun_rome_3_3_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;	
+					region pun_sea_atlanticus_oceanus;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_rome_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_4_primary_heading;
+			description	mission_text_text_objective_pun_rome_4_primary_description;
+			objective	
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 40;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_rome_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_4_1_heading;
+				description mission_text_text_objective_pun_rome_4_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pun_hispania_ulterior_saguntum;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_4_2_heading;
+				description mission_text_text_objective_pun_rome_4_2_description;
+				objective	
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction pun_vaccaei;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_4_3_heading;
+				description mission_text_text_objective_pun_rome_4_3_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+					region pun_hispania_ulterior_carthago_nova;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_rome_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_5_primary_heading;
+			description	mission_text_text_objective_pun_rome_5_primary_description;
+			objective
+			{
+				type OWN_N_REGIONS_INCLUDING;	
+				total 3;
+				region pun_numidia_cirta;
+				region pun_africa_capsa;
+				region pun_tripolitana_tacapae;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_rome_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_5_1_heading;
+				description mission_text_text_objective_pun_rome_5_1_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;
+					region pun_sea_mare_africum;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_5_2_heading;
+				description mission_text_text_objective_pun_rome_5_2_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pun_mauretania_tingis;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_5_3_heading;
+				description mission_text_text_objective_pun_rome_5_3_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pun_hispania_ulterior_ibossim;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_5_4_heading;
+				description mission_text_text_objective_pun_rome_5_4_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology pun_roman_civil_diplomacy_african_mission;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pun_rome_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_6_primary_heading;
+			description	mission_text_text_objective_pun_rome_6_primary_description;
+			objective	
+			{
+				type OWN_N_REGIONS_INCLUDING;		
+				total 1;
+				region pun_africa_carthago;
+			}
+			payload
+			{
+				money 11000;
+				issue_mission objective_pun_rome_7_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_6_1_heading;
+				description mission_text_text_objective_pun_rome_6_1_description;
+				objective	
+				{
+					type MAKE_ALLIANCE;		
+					faction pun_libya;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_6_2_heading;
+				description mission_text_text_objective_pun_rome_6_2_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction pun_massyli;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_pun_rome_7_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_7_primary_heading;
+			description	mission_text_text_objective_pun_rome_7_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;	
+			}
+			payload
+			{
+				money 15000;
+			}
+		}
+	}
+	
+	
+	
+	// Non-Chapter Missions //
+	mission
+	{
+		key objective_pun_rome_gallia_cisalpina_1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading mission_text_text_objective_pun_rome_gallia_cisalpina_1_heading;
+			description mission_text_text_objective_pun_rome_gallia_cisalpina_1_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;
+				total 1;
+				province pun_main_gallia_cisalpina;
+			}
+			payload
+			{
+				money 2000;
+			}
+		}
+	}
+	
+	mission
+	{
+		key objective_pun_rome_gallia_transalpina_1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading mission_text_text_objective_pun_rome_gallia_transalpina_1_heading;
+			description mission_text_text_objective_pun_rome_gallia_transalpina_1_description;
+			objective
+			{
+				type BE_AT_WAR_WITH_FACTION;
+				faction pun_allobroges;
+			}
+			payload
+			{
+				money 1000;
+			}
+		}
+	}
+	
+	mission
+	{
+		key objective_pun_rome_africa_1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading mission_text_text_objective_pun_rome_africa_1_heading;
+			description mission_text_text_objective_pun_rome_africa_1_description;
+			objective
+			{
+				type MAKE_TRADE_AGREEMENT;
+				faction pun_masaesyli;
+			}
+			payload
+			{
+				money 1000;
+			}
+		}
+	}
+	
+	
+	//************** CARTHAGE ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_carthage_1_primary;	// First chapter-based mission for Carthage
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_carthage_1_primary_heading;
+			description mission_text_text_objective_pun_carthage_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_carthage_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_carthage_1_1_heading;
+				description 	mission_text_text_objective_pun_carthage_1_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;	
+					faction pun_arevaci;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_carthage_1_2_heading;
+				description 	mission_text_text_objective_pun_carthage_1_2_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;
+					faction pun_libya;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_carthage_1_3_heading;
+				description 	mission_text_text_objective_pun_carthage_1_3_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pun_carthage_civil_diplomacy_diplomats;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_pun_carthage_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_carthage_2_primary_heading;
+			description mission_text_text_objective_pun_carthage_2_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 24;				
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_carthage_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_carthage_2_1_heading;
+				description mission_text_text_objective_pun_carthage_2_1_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;
+					total 3;
+					region pun_gallaecia_pallantia;
+					region pun_lusitania_ebora;
+					region pun_hispania_citerior_ilerda;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_carthage_2_2_heading;
+				description mission_text_text_objective_pun_carthage_2_2_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pun_carthage_civil_laws_foreign_policy;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_carthage_2_3_heading;
+				description mission_text_text_objective_pun_carthage_2_3_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;	
+					faction pun_lusitani;				
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_carthage_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_carthage_3_primary_heading;
+			description	mission_text_text_objective_pun_carthage_3_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 28;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_carthage_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_carthage_3_1_heading;
+				description mission_text_text_objective_pun_carthage_3_1_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province pun_main_hispania_citerior;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_carthage_3_2_heading; 
+				description mission_text_text_objective_pun_carthage_3_2_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;	
+					total 16;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_carthage_3_3_heading;
+				description mission_text_text_objective_pun_carthage_3_3_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;	
+					region pun_sea_mare_sardoum;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_carthage_3_4_heading;
+				description mission_text_text_objective_pun_carthage_3_4_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_techs_of_type_x;
+					technology_category rom_roman_mil_man;
+					total 6;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_carthage_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_carthage_4_primary_heading;
+			description	mission_text_text_objective_pun_carthage_4_primary_description;
+			objective	
+			{
+				type CONTROL_N_REGIONS_INCLUDING;
+				total 3;
+				region pun_gallia_cisalpina_genua;
+				region pun_gallia_cisalpina_patavium;
+				region pun_etruria_pisae;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_carthage_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_carthage_4_1_heading;
+				description mission_text_text_objective_pun_carthage_4_1_description;
+				objective	
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology pun_carthage_civil_diplomacy_promise_of_freedom;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_carthage_4_2_heading;
+				description mission_text_text_objective_pun_carthage_4_2_description;
+				objective	
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;	
+					total 1;
+					province pun_main_gallia_transalpina;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_carthage_4_3_heading;
+				description mission_text_text_objective_pun_carthage_4_3_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction pun_boii;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_carthage_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_carthage_5_primary_heading;
+			description	mission_text_text_objective_pun_carthage_5_primary_description;
+			objective
+			{
+				type OWN_N_REGIONS_INCLUDING;	
+				total 1;		
+				region pun_latium_et_campania_roma;			
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_pun_carthage_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_carthage_5_1_heading;
+				description mission_text_text_objective_pun_carthage_5_1_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction pun_etruscan;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_carthage_5_2_heading;
+				description mission_text_text_objective_pun_carthage_5_2_description;
+				objective
+				{
+					type MAKE_ALLIANCE;	
+					faction pun_samnites;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pun_carthage_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_carthage_6_primary_heading;
+			description	mission_text_text_objective_pun_carthage_6_primary_description;
+			objective	
+			{
+				type ACHIEVE_VICTORY;		
+			}
+			payload
+			{
+				money 15000;
+			}
+		}
+	}
+	
+	// Non-Chapter Missions //
+	mission
+	{
+		key objective_pun_carthage_ebro_1;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading mission_text_text_objective_pun_carthage_ebro_1_heading;
+			description mission_text_text_objective_pun_carthage_ebro_1_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;
+				total 4;
+				region pun_hispania_citerior_cissis;
+				region pun_hispania_citerior_ilerda;
+				region pun_hispania_citerior_salduba;
+				region pun_aquitania_iruna;
+			}
+			payload
+			{
+				money 4000;
+			}
+		}
+	}
+	
+	
+	
+	//************** SYRACUSE ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_syracuse_1_primary;	// First chapter-based mission for Syracuse
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_syracuse_1_primary_heading;
+			description mission_text_text_objective_pun_syracuse_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 1;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_syracuse_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_syracuse_1_1_heading;
+				description 	mission_text_text_objective_pun_syracuse_1_1_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction pun_carthage;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_syracuse_1_2_heading;
+				description 	mission_text_text_objective_pun_syracuse_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_agora_entertainment_3;
+					building_level greek_city_centre_theatre_3;
+					faction pun_syracuse;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_syracuse_1_3_heading;
+				description 	mission_text_text_objective_pun_syracuse_1_3_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction pun_libya;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_pun_syracuse_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_2_primary_heading;
+			description mission_text_text_objective_pun_syracuse_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 4;
+				province pun_main_tripolitana;
+				province pun_main_africa;
+				province pun_main_numidia;
+				province pun_main_mauretania;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_syracuse_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_syracuse_2_1_heading;
+				description mission_text_text_objective_pun_syracuse_2_1_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;
+					total 15;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_syracuse_2_2_heading;
+				description mission_text_text_objective_pun_syracuse_2_2_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+					region pun_africa_carthago;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_syracuse_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_3_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;
+				total 3;
+				province pun_main_hispania_ulterior;
+				province pun_main_turdetania;
+				province pun_main_lusitania;
+			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_syracuse_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_syracuse_3_1_heading;
+				description mission_text_text_objective_pun_syracuse_3_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction pun_carthage;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_syracuse_3_2_heading; 
+				description mission_text_text_objective_pun_syracuse_3_2_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;	
+					total 6;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_syracuse_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_4_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_4_primary_description;
+			objective	
+			{
+				type OWN_N_UNITS;		
+				total 90;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_syracuse_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_syracuse_4_1_heading;
+				description mission_text_text_objective_pun_syracuse_4_1_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;
+					faction pun_rome;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_syracuse_4_2_heading;
+				description mission_text_text_objective_pun_syracuse_4_2_description;
+				objective	
+				{
+					type OWN_N_UNITS;	
+					total 17;
+					mercenary;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_syracuse_4_3_heading;
+				description mission_text_text_objective_pun_syracuse_4_3_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;
+					technology rom_syracuse_engineering_construction_golden_age;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_syracuse_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_5_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_5_primary_description;
+			objective
+			{
+				type OWN_N_REGIONS_INCLUDING;	
+				total 1;		
+				region pun_latium_et_campania_roma;			
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_pun_syracuse_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_syracuse_5_1_heading;
+				description mission_text_text_objective_pun_syracuse_5_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level pun_HELLENIC_temple_Altar_Zeus_5;
+					building_level greek_religious_zeus_5_syracuse_pun;
+					faction pun_syracuse;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_syracuse_5_2_heading;
+				description mission_text_text_objective_pun_syracuse_5_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level pun_HELLENIC_agora_Syracuse_5;
+					building_level greek_city_centre_theatre_5_pun;
+					faction pun_syracuse;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pun_syracuse_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_6_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_6_primary_description;
+			objective	
+			{
+				type ACHIEVE_VICTORY;		
+			}
+			payload
+			{
+				money 16000;
+			}
+		}
+	}
+	//************** LUSITANI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_lusitani_1_primary;	// First chapter-based mission for Lusitani
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_lusitani_1_primary_heading;
+			description mission_text_text_objective_pun_lusitani_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 1;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_lusitani_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_lusitani_1_1_heading;
+				description 	mission_text_text_objective_pun_lusitani_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_iberian_military_warrior_code_headhunt;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_lusitani_1_2_heading;
+				description 	mission_text_text_objective_pun_lusitani_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_BARBARIAN_religious_iberian_Endovelicus_2;
+					building_level barb_religious_iberian_endovelicus_2;
+					faction pun_lusitani;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_lusitani_1_3_heading;
+				description 	mission_text_text_objective_pun_lusitani_1_3_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction pun_arevaci;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_pun_lusitani_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_lusitani_2_primary_heading;
+			description mission_text_text_objective_pun_lusitani_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_lusitani_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_lusitani_2_1_heading;
+				description mission_text_text_objective_pun_lusitani_2_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction pun_arevaci;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_lusitani_2_2_heading;
+				description mission_text_text_objective_pun_lusitani_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 4;
+					unit Ibe_Lusitani_Medium_Spearmen;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_lusitani_2_3_heading;
+				description mission_text_text_objective_pun_lusitani_2_3_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;
+					faction pun_carthage;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_lusitani_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_lusitani_3_primary_heading;
+			description	mission_text_text_objective_pun_lusitani_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;
+				total 6;
+				province pun_main_hispania_ulterior;
+				province pun_main_turdetania;
+				province pun_main_lusitania;
+				province pun_main_hispania_citerior;
+				province pun_main_gallaecia;
+				province pun_main_celtiberia;
+			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_lusitani_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_lusitani_3_1_heading;
+				description mission_text_text_objective_pun_lusitani_3_1_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;
+					region pun_sea_mare_hispanum;
+					region pun_sea_mare_ibericum;
+					region pun_sea_gaditanum_fretum;
+					region pun_sea_atlanticus_oceanus;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_lusitani_3_2_heading; 
+				description mission_text_text_objective_pun_lusitani_3_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_military_techs;
+					total 6;			
+					technology_category rom_roman_mil_man;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_lusitani_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_lusitani_4_primary_heading;
+			description	mission_text_text_objective_pun_lusitani_4_primary_description;
+			objective	
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 4;
+				region pun_gallia_cisalpina_genua;
+				region pun_gallia_cisalpina_patavium;
+				region pun_gallia_cisalpina_placentia;
+				region pun_etruria_pisae;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_lusitani_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_lusitani_4_1_heading;
+				description mission_text_text_objective_pun_lusitani_4_1_description;
+				objective	
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 8;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_lusitani_4_2_heading;
+				description mission_text_text_objective_pun_lusitani_4_2_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction pun_rome;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_lusitani_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_lusitani_5_primary_heading;
+			description	mission_text_text_objective_pun_lusitani_5_primary_description;
+			objective
+			{
+				type SUBJUGATE_FACTIONS;	
+				total 20;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_pun_lusitani_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_lusitani_5_1_heading;
+				description mission_text_text_objective_pun_lusitani_5_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_BARBARIAN_religious_iberian_Endovelicus_4;
+					building_level barb_religious_iberian_endovelicus_4;
+					faction pun_lusitani;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pun_lusitani_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_lusitani_6_primary_heading;
+			description	mission_text_text_objective_pun_lusitani_6_primary_description;
+			objective	
+			{
+				type ACHIEVE_VICTORY;		
+			}
+			payload
+			{
+				money 16000;
+			}
+		}
+	}
+	//************** AREVACI ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_arevaci_1_primary;	// First chapter-based mission for Arevaci
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_arevaci_1_primary_heading;
+			description mission_text_text_objective_pun_arevaci_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 1;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_arevaci_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_arevaci_1_1_heading;
+				description 	mission_text_text_objective_pun_arevaci_1_1_description;
+				objective
+				{
+					type RESEARCH_TECHNOLOGY;	
+					technology rom_iberian_civil_farming_iron_tools;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_arevaci_1_2_heading;
+				description 	mission_text_text_objective_pun_arevaci_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_BARBARIAN_enclosure_food_grain_3;
+					building_level barb_agriculture_farm_3;
+					faction pun_arevaci;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_arevaci_1_3_heading;
+				description 	mission_text_text_objective_pun_arevaci_1_3_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction pun_lusitani;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_pun_arevaci_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_arevaci_2_primary_heading;
+			description mission_text_text_objective_pun_arevaci_2_primary_description;
+			objective
+			{
+				type OWN_N_UNITS;	
+				total 50;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_arevaci_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_arevaci_2_1_heading;
+				description mission_text_text_objective_pun_arevaci_2_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction pun_lusitani;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_arevaci_2_2_heading;
+				description mission_text_text_objective_pun_arevaci_2_2_description;
+				objective
+				{
+					type OWN_N_UNITS;
+					total 4;
+					unit Ibe_Arevaci_Medium_Inf;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_arevaci_2_3_heading;
+				description mission_text_text_objective_pun_arevaci_2_3_description;
+				objective
+				{
+					type MAKE_ALLIANCE;
+					faction pun_vettones;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_arevaci_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_arevaci_3_primary_heading;
+			description	mission_text_text_objective_pun_arevaci_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;
+				total 6;
+				province pun_main_hispania_ulterior;
+				province pun_main_turdetania;
+				province pun_main_lusitania;
+				province pun_main_hispania_citerior;
+				province pun_main_gallaecia;
+				province pun_main_celtiberia;
+			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_arevaci_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_arevaci_3_1_heading;
+				description mission_text_text_objective_pun_arevaci_3_1_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;
+					region pun_sea_mare_hispanum;
+					region pun_sea_mare_ibericum;
+					region pun_sea_gaditanum_fretum;
+					region pun_sea_atlanticus_oceanus;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_arevaci_3_2_heading; 
+				description mission_text_text_objective_pun_arevaci_3_2_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_civil_techs;
+					total 6;			
+					technology_category rom_roman_civ_eco;	
+					technology_category rom_roman_civ_phi;	
+					technology_category rom_roman_civ_top;
+					technology_category rom_roman_eng_con;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_arevaci_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_arevaci_4_primary_heading;
+			description	mission_text_text_objective_pun_arevaci_4_primary_description;
+			objective	
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 4;
+				region pun_mauretania_rutubis;
+				region pun_mauretania_tingis;
+				region pun_mauretania_volubilis;
+				region pun_mauretania_siga;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_arevaci_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_arevaci_4_1_heading;
+				description mission_text_text_objective_pun_arevaci_4_1_description;
+				objective	
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;
+					total 8;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_arevaci_4_2_heading;
+				description mission_text_text_objective_pun_arevaci_4_2_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction pun_libya;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_arevaci_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_arevaci_5_primary_heading;
+			description	mission_text_text_objective_pun_arevaci_5_primary_description;
+			objective
+			{
+				type SUBJUGATE_FACTIONS;	
+				total 20;				
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_pun_arevaci_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_arevaci_5_1_heading;
+				description mission_text_text_objective_pun_arevaci_5_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_BARBARIAN_religious_iberian_5;
+					building_level barb_religious_iberian_5;
+					faction pun_arevaci;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pun_arevaci_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_arevaci_6_primary_heading;
+			description	mission_text_text_objective_pun_arevaci_6_primary_description;
+			objective	
+			{
+				type ACHIEVE_VICTORY;		
+			}
+			payload
+			{
+				money 16000;
+			}
+		}
+	}
+	//************** Massilia ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_massilia_1_primary;	// First chapter-based mission for pun_massilia
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_massilia_1_primary_heading;
+			description mission_text_text_objective_pun_massilia_1_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 1;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_massilia_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_massilia_1_1_heading;
+				description 	mission_text_text_objective_pun_massilia_1_1_description;
+				objective
+				{
+					type BE_AT_WAR_WITH_FACTION;	
+					faction pun_carthage;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_massilia_1_2_heading;
+				description 	mission_text_text_objective_pun_massilia_1_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_agora_entertainment_3;
+					faction pun_massilia;
+				}
+				payload
+				{
+					money 1500;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_massilia_1_3_heading;
+				description 	mission_text_text_objective_pun_massilia_1_3_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction pun_allobroges;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;						
+		key objective_pun_massilia_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_2_primary_heading;
+			description mission_text_text_objective_pun_syracuse_2_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 3;
+				province pun_main_gallia_transalpina;
+				province pun_main_hispania_citerior;
+				province pun_main_aquitania;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_massilia_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_massilia_2_1_heading;
+				description mission_text_text_objective_pun_massilia_2_1_description;
+				objective
+				{
+					type OWN_N_NAVAL_UNITS;
+					total 15;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_massilia_2_2_heading;
+				description mission_text_text_objective_pun_massilia_2_2_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+					region pun_hispania_ulterior_carthago_nova;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_massilia_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_3_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;
+				total 3;
+				province pun_main_hispania_ulterior;
+				province pun_main_turdetania;
+				province pun_main_lusitania;
+			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_massilia_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_massilia_3_1_heading;
+				description mission_text_text_objective_pun_massilia_3_1_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction pun_carthage;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_massilia_3_2_heading; 
+				description mission_text_text_objective_pun_massilia_3_2_description;
+				objective
+				{
+					type MAINTAIN_TRADE_WITH_N_FACTIONS;	
+					total 6;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_massilia_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_4_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_4_primary_description;
+			objective	
+			{
+				type OWN_N_UNITS;		
+				total 90;
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_massilia_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_massilia_4_1_heading;
+				description mission_text_text_objective_pun_massilia_4_1_description;
+				objective	
+				{
+					type BE_AT_WAR_WITH_FACTION;
+					faction pun_rome;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_massilia_4_2_heading;
+				description mission_text_text_objective_pun_massilia_4_2_description;
+				objective	
+				{
+					type OWN_N_UNITS;	
+					total 17;
+					mercenary;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_massilia_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_syracuse_5_primary_heading;
+			description	mission_text_text_objective_pun_syracuse_5_primary_descriptiona;
+			objective
+			{
+				type OWN_N_REGIONS_INCLUDING;	
+				total 1;		
+				region pun_latium_et_campania_roma;			
+			}
+			payload
+			{
+				money 13000;
+				issue_mission objective_pun_massilia_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_massilia_5_1_heading;
+				description mission_text_text_objective_pun_massilia_5_1_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_temple_Zeus_4;
+					faction pun_massilia;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_massilia_5_2_heading;
+				description mission_text_text_objective_pun_massilia_5_2_description;
+				objective
+				{
+					type CONSTRUCT_BUILDING;
+					building_level rom_HELLENIC_agora_entertainment_4;
+					faction pun_massilia;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 6;						
+		key objective_pun_massilia_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_massilia_6_primary_heading;
+			description	mission_text_text_objective_pun_massilia_6_primary_description;
+			objective	
+			{
+				type ACHIEVE_VICTORY;		
+			}
+			payload
+			{
+				money 16000;
+			}
+		}
+	}
+	
+	//************** pun_masaesyli ****************//
+	mission
+	{
+		chapter 1;						
+		key objective_pun_masaesyli_1_primary;	// First chapter-based mission for pun_masaesyli
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{	
+			heading		mission_text_text_objective_pun_masaesyli_1_primary_heading;
+			description mission_text_text_objective_pun_masaesyli_1_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 22;					
+			}
+			payload
+			{
+				money 2500;
+				issue_mission objective_pun_masaesyli_2_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload
+			{					
+				heading		mission_text_text_objective_pun_masaesyli_1_1_heading;
+				description 	mission_text_text_objective_pun_masaesyli_1_1_description;
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;	
+					total 1;
+					region pun_numidia_cirta;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+			objectives_and_payload		
+			{					
+				heading		mission_text_text_objective_pun_rome_1_3_heading;
+				description 	mission_text_text_objective_pun_rome_1_3_description;
+				objective
+				{
+					type MAKE_TRADE_AGREEMENT;
+					faction pun_syracuse;
+				}
+				payload
+				{
+					money 1000;
+				}
+			}
+		}
+	}
+
+	mission
+	{						
+		chapter 2;				
+		key objective_pun_masaesyli_2_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_2_primary_heading;
+			description mission_text_text_objective_pun_rome_2_primary_description;
+			objective
+			{
+				type CONTROL_N_REGIONS_INCLUDING;	
+				total 30;
+			}
+			payload
+			{
+				money 5000;
+				issue_mission objective_pun_masaesyli_3_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{			
+				heading mission_text_text_objective_pun_masaesyli_2_1_heading;
+				description mission_text_text_objective_pun_masaesyli_2_1_description;
+				objective
+				{
+					type RESEARCH_N_TECHS_OF_TYPE_X;	
+					override_text mission_text_text_mis_activity_research_n_military_techs;
+					total 6;			
+					technology_category rom_roman_mil_man;
+					technology_category rom_roman_mil_tac;
+					technology_category rom_roman_mil_top;
+					technology_category rom_roman_eng_sie;
+				}
+				payload
+				{
+					money 2500;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_masaesyli_2_2_heading;
+				description mission_text_text_objective_pun_masaesyli_2_2_description;
+				objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 1;
+					province pun_main_mauretania;
+				}
+				payload
+				{
+					money 2000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 3;						
+		key objective_pun_masaesyli_3_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_masaesyli_3_primary_heading;
+			description	mission_text_text_objective_pun_masaesyli_3_primary_description;
+			objective
+			{
+				type CONTROL_N_PROVINCES_INCLUDING;	
+				total 11;			
+			}
+			payload
+			{
+				money 7500;
+				issue_mission objective_pun_masaesyli_4_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_masaesyli_3_2_heading; 
+				description mission_text_text_objective_pun_masaesyli_3_2_description;
+				objective
+				{
+					type SUBJUGATE_FACTIONS;
+					total 1;
+					faction pun_massyli;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+			objectives_and_payload		
+			{	
+				heading mission_text_text_objective_pun_masaesyli_3_3_heading;
+				description mission_text_text_objective_pun_masaesyli_3_3_description;
+				objective
+				{
+					type OWN_A_PORT_ADJOINING_SEA_REGIONS_INCLUDING;	
+					region pun_sea_mare_africum;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 4;						
+		key objective_pun_masaesyli_4_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_4_primary_heading;
+			description	mission_text_text_objective_pun_rome_4_primary_description;
+			objective	
+			{
+				type CONTROL_N_REGIONS_INCLUDING;		
+				total 38;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_masaesyli_5_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_4_1_heading;
+				description mission_text_text_objective_pun_rome_4_1_description;
+				objective	
+				{
+					type CONTROL_N_REGIONS_INCLUDING;
+					total 1;
+					region pun_hispania_ulterior_saguntum;
+				}
+				payload
+				{
+					money 7000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_4_2_heading;
+				description mission_text_text_objective_pun_rome_4_2_description;
+				objective	
+				{
+					type SUBJUGATE_FACTIONS;	
+					total 1;
+					faction pun_vaccaei;
+				}
+				payload
+				{
+					money 4000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_4_3_heading;
+				description mission_text_text_objective_pun_rome_4_3_description;
+				objective
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+					region pun_hispania_ulterior_carthago_nova;
+				}
+				payload
+				{
+					money 6000;
+				}
+			}
+		}
+	}	
+	mission
+	{						
+		chapter 5;						
+		key objective_pun_masaesyli_5_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_rome_5_primary_heading;
+			description	mission_text_text_objective_pun_rome_5_primary_description;
+			objective
+			{
+				type OWN_N_REGIONS_INCLUDING;	
+				total 3;
+				region pun_numidia_cirta;
+				region pun_africa_capsa;
+				region pun_tripolitana_tacapae;			
+			}
+			payload
+			{
+				money 10000;
+				issue_mission objective_pun_masaesyli_6_primary;
+			}
+		}
+		secondary_objectives_and_payloads
+		{
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_rome_5_2_heading;
+				description mission_text_text_objective_pun_rome_5_2_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pun_turdetania_gades;
+				}
+				payload
+				{
+					money 5000;
+				}
+			}
+			objectives_and_payload		
+			{
+				heading mission_text_text_objective_pun_masaesyli_5_3_heading;
+				description mission_text_text_objective_pun_masaesyli_5_3_description;
+				objective
+				{
+					type CONTROL_N_REGIONS_INCLUDING;	
+					total 1;
+					region pun_hispania_ulterior_ibossim;
+				}
+				payload
+				{
+					money 3000;
+				}
+			}
+		}
+	}
+	mission
+	{						
+		chapter 7;						
+		key objective_pun_masaesyli_6_primary;
+		issuer CLAN_ELDERS;			
+		primary_objectives_and_payload		
+		{				
+			heading		mission_text_text_objective_pun_masaesyli_6_primary_heading;
+			description	mission_text_text_objective_pun_masaesyli_6_primary_description;
+			objective
+			{
+				type ACHIEVE_VICTORY;	
+			}
+			payload
+			{
+				money 15000;
+			}
+		}
+	}
+		
+}
